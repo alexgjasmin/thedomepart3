@@ -1,0 +1,1582 @@
+[00:42:21] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
+[00:42:22] [ForkJoinPool-1-worker-6/WARN]: Mod design_decor uses the version 0.4.0b_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-14/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-11/WARN]: Mod globalpacks uses the version 1.16.1_fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-9/WARN]: Mod getittogetherdrops uses the version fabric-1.20-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-10/WARN]: Mod hamsters uses the version fabric-1.0.3-1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-10/WARN]: The mod "necronomicon" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 10 column 14
+[00:42:22] [ForkJoinPool-1-worker-16/WARN]: Mod oceansdelight uses the version fdrf-fabric-1.0.2-1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fdrf'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-9/WARN]: Mod com_github_jagrosh_discordipc uses the version a8d6631cc9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a8d6631cc9'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.20.1-9.1.16 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-14/WARN]: Mod xercapaint uses the version fabric-1.20.1-1.0.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [ForkJoinPool-1-worker-7/WARN]: Mod xercamusic uses the version fabric-1.20.1-1.0.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:42:22] [main/WARN]: Warnings were found!
+ - Mod 'Alloy Forgery' (alloy_forgery) 2.1.2+1.20 recommends version 12.0.0 or later of roughlyenoughitems, which is missing!
+	 - You should install version 12.0.0 or later of roughlyenoughitems for the optimal experience.
+ - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-f-build.1417+mc1.20.1!
+	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+ - Mod 'Every Compat' (everycomp) 1.20-2.6.74 recommends any version of sawmill, which is missing!
+	 - You should install any version of sawmill for the optimal experience.
+ - Mod 'JourneyMapIntegration' (jmi) 1.20.1-0.14-48 recommends version 14 or later of waystones, which is missing!
+	 - You should install version 14 or later of waystones for the optimal experience.
+[00:42:22] [main/INFO]: Loading 493 mods:
+	- a_man_with_plushies 4.2.0
+	- ae2 15.2.12
+	   \-- team_reborn_energy 3.0.0
+	- alloy_forgery 2.1.2+1.20
+	- almostunified 1.20.1-0.9.4
+	- alternate-current 1.9.0
+	- amendments 1.20-1.2.10
+	- another_furniture 1.20.1-3.0.1
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- artifacts 9.5.13
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- expandability 9.0.4
+	   \-- step-height-entity-attribute 1.2.0
+	- athena 3.1.2
+	- attributefix 21.0.4
+	- automobility 0.4.2+1.20.1-fabric
+	   \-- jsonem 0.2.1+1.20
+	- axolotlitemfix 1.1.7
+	- bakery 1.1.15
+	- balm-fabric 7.3.9
+	   \-- kuma_api 20.1.8
+	- barteringstation 8.0.0
+	- bbb 1.20.1-fabric-1.0.2
+	- bcg_smp 1.0.1
+	- bcgmusic 1.1.0-1.20.1
+	- bcgutil 1.0.5
+	- bclib 3.0.14
+	   \-- wunderlib 1.1.5
+	- beautify 1.2.0+1.20.1
+	- bedbenefits 13.0.3
+	- beekeeperhut 2.0.1
+	- better_climbing 3
+	- betterbeds 1.3.0
+	- bettercombat 1.8.6+1.20.1
+	- betterdungeons 1.20-Fabric-4.0.4
+	   \-- org_reflections_reflections 0.10.2
+	- betterend 4.0.11
+	- betterendisland 1.20-Fabric-2.0.6
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- betterthirdperson 1.9.0
+	- bhmenu 2.4.1
+	- bitsandchisels 2.7.3
+	- blahaj 0.3.2
+	- boatbreakfix 1.0.2
+	- bookshelf 20.2.13
+	- borderlessmining 1.1.8+1.20.1
+	- brewery 1.1.9
+	- bwncr 3.17.0
+	- candlelight 1.2.13
+	- carryon 2.1.2.7
+	- charmofundying 6.5.0+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- chat_heads 0.12.13
+	- chefsdelight 1.0.3-fabric-1.20.1
+	- chimes 2.0.1
+	- chipped 3.0.6
+	- clickadv 1.20.1-3.8
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.4
+	- cobbledex 1.1.0
+	- cobblemon 1.5.2+1.20.1
+	- cobblemon-ui-tweaks 1.0.6
+	- cobblemon_capturexp 1.5-fabric-1.0.1
+	- cobblemon_quests 1.1.11
+	- cobblemon_spawn_notification 1.5-fabric-1.0.0
+	- cobblepedia 0.6.6
+	- collective 7.84
+	- comforts 6.4.0+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- commonnetworking 1.0.5-1.20.1
+	- compact_storage 6.0.1.64
+	- connectivity 1.20.1-5.6
+	- controlling 12.0.2
+	- convenientdecor 0.4.2
+	   \-- omega-config 1.4.0+1.20.1
+	- copycats 2.1.2+mc.1.20.1-fabric
+	- coroutil 1.20.1-1.3.7
+	- crawl 0.12.0
+	   \-- mm 2.3
+	- create 0.5.1-f-build.1417+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_brewing 2.3.2+1.20.1
+	   |-- porting_lib_client_events 2.3.2+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        \-- porting_lib_tags 3.0
+	             \-- porting_lib_gametest 2.1.1090+1.20
+	- create_cobblemon 0.4
+	- create_enchantment_industry 1.2.16
+	   \-- create_dragon_lib 1.4.2
+	- createaddition 1.2.4
+	- createdeco 2.0.2-1.20.1-fabric
+	- creeperoverhaul 3.0.2
+	- cupboard 1.20.1-2.7
+	- customcursorcomm 1.2.0
+	- dailyshop 1.0.2
+	- darkutils 17.0.3
+	- debugify 1.20.1+2.0
+	- design_decor 0.4.0b_fabric+1.20.1
+	- deuf_refabricated 1.1.0
+	- diagonalfences 8.1.4
+	   \-- diagonalblocks 8.0.5
+	- diagonalwalls 8.0.3
+	   \-- diagonalblocks 8.0.5
+	- diagonalwindows 8.1.4
+	   \-- diagonalblocks 8.0.5
+	- dimensionalsyncfixes 1.20.1-0.0.2
+	- doapi 1.2.15
+	   \-- terraform-wood-api-v1 7.0.1
+	- dragonfight 1.20.1-4.6
+	- drippyloadingscreen 3.0.2
+	- e4mc_minecraft 5.1.0
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.1
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- elytraslot 6.4.2+1.20.1
+	   \-- mixinsquared 0.1.2-beta.6
+	- emi 1.1.12+1.20.1+fabric
+	- emi_letsdo_compat 1.2
+	- endermanoverhaul 1.0.4
+	- endrem 5.2.4
+	- ends_delight 2.1
+	   \-- porting_lib_config 2.3.4+1.20.1
+	        \-- porting_lib_core 2.3.4+1.20.1
+	- entity_model_features 2.2.3
+	- entity_texture_features 6.2.2
+	   \-- org_apache_httpcomponents_httpmime 4.5.10
+	- entityculling 1.7.0
+	- everycomp 1.20-2.6.74
+	   |-- mixinextras 0.4.0
+	   |-- porting_lib_accessors 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_attributes 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_base 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    |-- porting_lib_fluids 2.3.4+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_utility 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_common 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_entity 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |-- porting_lib_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_lazy_registration 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_model_generators 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    |-- porting_lib_data 2.3.4+1.20.1
+	   |    |-- porting_lib_model_materials 2.3.4+1.20.1
+	   |    \-- porting_lib_utility 2.3.4+1.20.1
+	   |-- porting_lib_model_loader 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_models 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    \-- porting_lib_fluids 2.3.4+1.20.1
+	   |-- porting_lib_networking 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_obj_loader 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   \-- porting_lib_transfer 2.3.4+1.20.1
+	        |-- porting_lib_core 2.3.4+1.20.1
+	        \-- porting_lib_fluids 2.3.4+1.20.1
+	- expandeddelight 0.3.1
+	   \-- omega-config 1.4.0+1.20.1
+	- explorerscompass 1.20.1-2.2.3-fabric
+	- explosiveenhancement 1.2.2-1.20.x
+	- exposure 1.7.6
+	- extendedgears 2.1.1-1.20.1-0.5.1.f-fabric
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.12.1+kotlin.2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.3
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.1
+	- fabricloader 0.16.0
+	   \-- mixinextras 0.4.0
+	- fallingleaves 1.15.6
+	- fancymenu 3.2.3
+	   |-- com_github_keksuccino_japng 0.5.3
+	   \-- com_github_rtyley_animated-gif-lib-for-java animated-gif-lib-1.7
+	- farmersdelight 1.20.1-2.1.6+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_accessors 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_base 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    |-- porting_lib_fluids 2.3.4+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_utility 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_config 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_lazy_registration 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_loot 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_networking 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_recipe_book_categories 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   \-- porting_lib_tool_actions 2.3.4+1.20.1
+	        \-- porting_lib_core 2.3.4+1.20.1
+	- farsight 1.20.1-4.3
+	   \-- org_jctools_jctools-core 4.0.1
+	- faster-random 5.1.0
+	- fastipping 1.0.4
+	- fastpaintings 1.20-1.2.7
+	- ferritecore 6.0.1
+	- fightorflight 0.5.0
+	- flowerymooblooms 2.0.2
+	- forgeconfigapiport 8.0.0
+	- framework 0.6.16
+	   \-- org_javassist_javassist 3.29.2-GA
+	- friendsandfoes 2.0.17
+	- ftbchunks 2001.3.1
+	- ftbessentials 2001.2.2
+	- ftblibrary 2001.2.4
+	- ftbquests 2001.4.8
+	   \-- team_reborn_energy 3.0.0
+	- ftbteams 2001.3.0
+	- ftbultimine 2001.1.5
+	- ftbxmodcompat 2.1.1
+	- fzzy_config 0.3.7+1.20.1
+	   |-- blue_endless_jankson 1.2.3
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 4.4.9
+	   \-- com_eliotlash_mclib_mclib 20
+	- getittogetherdrops fabric-1.20-1.3.1
+	- globalpacks 1.16.1_fabric
+	- go-fish 1.6.3+1.20.1
+	- gpumemleakfix 1.20.1-1.8
+	- grindenchantments 3.1.2+1.20
+	   \-- codec-config-api 1.0.2+1.19.3
+	- guarding 2.4.0
+	   |-- mm 2.3
+	   \-- scribe 1.20.1-0.5.0-alpha
+	- guardvillagers 2.0.9-1.20.1
+	   \-- midnightlib 1.4.1
+	- gymbadges 1.0
+	- hamsters fabric-1.0.3-1.20.1
+	- handcrafted 3.0.6
+	- healingcampfire 6.1
+	- herbalbrews 1.0.8.1
+	- herdspanic 1.1.0
+	- horseexpert 8.1.1
+	- icarus 2.9.2
+	- idwtialsimmoedm 0.3.1+1.20
+	- illagerinvasion 8.0.5
+	   \-- extensibleenums 7.0.1
+	- immediatelyfast 1.2.21+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- immersive_aircraft 1.0.1+1.20.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- immersive_paintings 0.6.7+1.20.1
+	- incantationem 1.2.1+1.20
+	- incendium 5.3.5
+	- indium 1.0.34+mc1.20.1
+	- inventoryprofilesnext 1.10.10
+	- iris 1.7.2+mc1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- irisflw 1.1.2
+	- item_obliterator 2.3.0
+	- itemcollectors 1.1.10
+	- itemfilters 2001.1.0-build.59
+	- jade 11.11.0+fabric
+	- java 17
+	- jmi 1.20.1-0.14-48
+	- journeymap 5.10.2
+	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
+	- jumpoverfences 1.3.1
+	- konkrete 1.8.1
+	- languagereload 1.6.1+1.20.1
+	- leavemybarsalone 8.0.0
+	- leavesbegone 8.0.0
+	- letmedespawn 1.2.1
+	- libipn 4.0.2
+	- lithium 0.11.2
+	- lmft 1.0.2+1.20
+	- logbegone 1.0.8
+	- lootintegrations 1.20.1-3.7
+	- lootr 0.7.34.84
+	- luphieclutteredmod 2.1.0+1.20.1
+	- magnumtorch 8.0.2
+	- man_of_many_planes 0.1.0+1.20.1
+	- mavapi 1.1.4
+	- mavm 1.2.6
+	- mcwbridges 3.0.0
+	- mcwdoors 1.1.1
+	- mcwfences 1.1.2
+	- mcwfurnitures 3.3.0
+	- mcwlights 1.1.1
+	- mcwpaths 1.0.5
+	- mcwroofs 2.3.1
+	- mcwtrpdoors 1.1.3
+	- mcwwindows 2.3.0
+	- melody 1.0.3
+	- memoryleakfix 1.1.2
+	- mighty_mail 1.0.14
+	- mine-spawners 1.0
+	- minecraft 1.20.1
+	- mixintrace 1.1.1+1.17
+	- modernfix 5.19.4+mc1.20.1
+	- modmenu 7.2.2
+	- moonlight 1.20-2.12.17
+	- more-axolotl 2.0.1
+	- mousetweaks 2.26
+	- mr_remove_terralithintromessage 1.0
+	- mss 1.1.2-1.20-fabric
+	- mvs 4.1.4-1.20-fabric
+	- mythicmetals 0.19.9+1.20.1
+	   |-- additionalentityattributes 1.7.3+1.20.0
+	   |-- common-protection-api 1.0.0
+	   \-- reach-entity-attributes 2.4.0
+	- naturalist 4.0.3
+	- naturescompass 1.20.1-2.2.3-fabric
+	- necronomicon 1.4.2
+	- neruina 2.1.2
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.0
+	   |-- org_apache_maven_maven-artifact 3.8.1
+	   \-- org_kohsuke_github-api 1.318
+	- netherportalfix 13.0.1
+	- nightlights 1.1
+	- no-resource-pack-warnings 1.3.0
+	- nochatreports 1.20.1-v2.2.2
+	- notenoughanimations 1.7.5
+	- oceansdelight fdrf-fabric-1.0.2-1.20
+	- overflowingbars 8.0.0
+	- owo 0.11.2+1.20
+	- packetfixer 1.4.2
+	- particle_core 0.2.4+1.20.1
+	   \-- conditional-mixin 0.5.1
+	- patchouli 1.20.1-84-FABRIC
+	   \-- fiber 0.23.0-2
+	- permanentsponges 8.1.2
+	- pigpen 15.0.2
+	- ping-wheel 1.9.1
+	- player-animator 1.0.2-rc1+1.20
+	- plushies 1.4.0
+	- polymorph 0.49.5+1.20.1
+	   |-- cardinal-components-block 5.2.1
+	   |-- cardinal-components-item 5.2.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- puzzleslib 8.1.22
+	   \-- puzzlesaccessapi 8.0.7
+	- railways 1.6.4+fabric-mc1.20.1
+	   \-- mm 2.3
+	- reacharound 1.3.0
+	- rebind_narrator 2.0.2
+	- recipeessentials 1.20.1-3.6
+	- reeses-sodium-options 1.7.2+mc1.20.1-build.101
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- ribbits 1.20.1-Fabric-3.0.0
+	- runelic 18.0.2
+	- sdrp 4.0.3-build.40+mc1.20.1
+	   |-- com_github_jagrosh_discordipc a8d6631cc9
+	   |-- com_kohlschutter_junixsocket_junixsocket-common 2.6.2
+	   |-- com_kohlschutter_junixsocket_junixsocket-native-common 2.6.2
+	   \-- org_json_json 20210307
+	- searchables 1.0.3
+	- seasonhud 1.9.6
+	- seasons 2.3+1.20
+	- seasonsdelightcompat 1.0-1.3.9
+	- seasonsterralithcompat 1.0-2.3.7
+	- selling-bin 1.2.9.1
+	- serverredirect 1.4.5
+	- shadertoggle 1.0
+	- simplehats 1.20.1-0.3.2
+	- simplyswords 1.56.0-1.20.1
+	   \-- spruceui 5.0.0+1.20
+	- sliceanddice 3.2.3
+	- smallships 2.0.0-b1.4
+	- snowyspirit 1.20-3.0.6
+	- sodium 0.5.11+mc1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   \-- fabric-resource-loader-v0 0.11.10+1802ada577
+	- sodium-extra 0.5.4+mc1.20.1-build.115
+	   |-- caffeineconfig 1.3.0+1.17
+	   \-- crowdin-translate 1.4+1.19.3
+	- sophisticatedbackpacks 3.19.5+mc1.20.1-SNAPSHOT-build.104
+	- sophisticatedcore 0.5.109+mc1.20.1-SNAPSHOT-build.104
+	- sophisticatedstorage 0.8.60+mc1.20.1-SNAPSHOT-build.104
+	- spark 1.10.53
+	- spiceoffabric 1.6.2+mc1.20.1
+	   |-- capsaicin 1.3.3+mc1.20.1
+	   |-- coat 1.0.0-beta.20+mc1.20-pre1
+	   |-- tweed4_annotated 1.3.1+mc1.20-pre1
+	   |-- tweed4_base 1.7.1+mc1.20-pre1
+	   |-- tweed4_data 1.2.1+mc1.20-pre1
+	   |-- tweed4_data_hjson 1.1.1+mc1.20-pre1
+	   |-- tweed4_tailor_coat 1.1.3+mc1.20-pre1
+	   |-- tweed4_tailor_lang_json_descriptions 1.1.0+mc1.20-pre1
+	   \-- tweed4_tailor_screen 1.1.4+mc1.20-pre1
+	- stacc 1.7.0
+	- starterkit 7.1
+	- structory 1.3.5
+	- structory_towers 1.0.7
+	- structureessentials 1.20.1-3.4
+	- stylisheffects 8.0.2
+	- supermartijn642configlib 1.1.8+a
+	- supermartijn642corelib 1.1.17+a
+	- supplementaries 1.20-2.8.17
+	- suppsquared 1.20-1.1.14
+	- terrablender 3.0.1.7
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- terralith 2.5.4
+	- thiccpackets 1.17-1.19+
+	- things 0.3.3+1.20
+	   \-- lavender 0.1.0-pre.18+1.20
+	        |-- lavender-md 0.1.0-pre.3+1.20
+	        \-- lavender-md-owo-ui 0.1.0-pre.3+1.20
+	- toms_storage 1.6.8
+	- toolstats 16.0.8
+	- trade_cycling 1.20.1-1.0.7
+	- tradingpost 8.0.2
+	- trashcans 1.0.18
+	   \-- team_reborn_energy 3.0.0
+	- travelersbackpack fabric-1.20.1-9.1.16
+	   \-- reach-entity-attributes 2.4.0
+	- trinkets 3.7.2
+	- ubesdelight 0.2.0
+	   |-- midnightlib 1.4.1
+	   |-- porting_lib_base 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    |-- porting_lib_fluids 2.3.4+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_utility 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_lazy_registration 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   \-- porting_lib_registries 2.3.4+1.20.1
+	        \-- porting_lib_core 2.3.4+1.20.1
+	- universal_shops 1.3.2+1.20.1
+	   |-- common-economy-api 1.1.1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- placeholder-api 2.1.1+1.20
+	   |-- polymer-core 0.5.3+1.20.1
+	   |    |-- polymer-networking 0.5.3+1.20.1
+	   |    |    \-- polymer-common 0.5.3+1.20.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.3+1.20.1
+	   |-- polymer-resource-pack 0.5.3+1.20.1
+	   |    \-- polymer-common 0.5.3+1.20.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   |-- polymer-virtual-entity 0.5.3+1.20.1
+	   |    \-- polymer-common 0.5.3+1.20.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   |-- server_translations_api 2.0.0+1.20
+	   |    \-- packet_tweaker 0.4.0+1.19.4
+	   \-- sgui 1.2.2+1.20
+	- vanityslots 1.2.9
+	- villagernames 8.1
+	- vinery 1.4.28
+	- visualworkbench 8.0.0
+	- voicechat 1.20.1-2.5.21
+	- wands 2.6.9-release
+	- watut 1.20.1-1.1.3
+	- xercamusic fabric-1.20.1-1.0.2
+	- xercapaint fabric-1.20.1-1.0.1
+	- yet_another_config_lib_v3 3.5.0+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yigd 2.0.6
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        \-- libninepatch 1.2.0
+	- yosbr 0.1.2
+	- ysns 2.0.1
+	- yungsapi 1.20-Fabric-4.0.5
+	- yungsextras 1.20-Fabric-4.0.3
+	- zoomify 2.14.0+1.20.1
+	   \-- com_akuleshov7_ktoml-core-jvm 0.5.1
+[00:42:23] [main/INFO]: Applying default options... (YOSBR)
+[00:42:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Alex/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[00:42:23] [main/INFO]: Compatibility level set to JAVA_17
+[00:42:24] [main/WARN]: Reference map 'axolotl-item-fix-refmap.json' for axolotlitemfix.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/WARN]: Reference map 'BCGUtil-mc1.20.1-fabric-refmap.json' for bcgutil-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/WARN]: Reference map 'codec-config-api-refmap.json' for codec-config-api.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/WARN]: Reference map 'DailyShop-mc1.20.1-fabric-refmap.json' for dailyshop-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/INFO]: Preloading Debugify
+[00:42:24] [main/WARN]: Reference map 'emi-letsdo-compat-common-refmap.json' for emi_letsdo_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/WARN]: Reference map 'hamsters-refmap.json' for hamsters.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/INFO]: File exists, reading config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries.
+[00:42:24] [main/INFO]: Config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries read successfully.
+[00:42:24] [main/WARN]: Reference map 'itemcollectors.mixins.refmap.json' for itemcollectors.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:24] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[00:42:24] [main/WARN]: Reference map 'lmft-fabric-refmap.json' for lmft.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/INFO]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 61 options available, 3 override(s) found
+[00:42:25] [main/WARN]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
+[00:42:25] [main/WARN]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[00:42:25] [main/WARN]: Option 'mixin.perf.blast_search_trees' overriden (by user configuration) to 'false'
+[00:42:25] [main/INFO]: Applying Nashorn fix
+[00:42:25] [main/WARN]: Reference map 'oceansdelight-refmap.json' for oceansdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'packetfixer-fabric-fabric-refmap.json' for packetfixer-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'SimpleDiscordRichPresence-fabric-refmap.json' for sdrp.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'selling-bin-refmap.json' for selling-bin.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[00:42:25] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[00:42:25] [main/WARN]: Reference map 'starterkit_fabric.refmap.json' for starterkit_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'suppsquared-fabric-refmap.json' for suppsquared.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'suppsquared-common-refmap.json' for suppsquared-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'trashcans.mixins.refmap.json' for trashcans.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'universal_shops-refmap.json' for universal_shops.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'xercamusic-refmap.json' for xercamusic.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'xercapaint-refmap.json' for xercapaint.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:42:25] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[00:42:25] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[00:42:25] [main/WARN]: Error loading class: eu/midnightdust/midnightcontrols/client/controller/InputHandlers (java.lang.ClassNotFoundException: eu/midnightdust/midnightcontrols/client/controller/InputHandlers)
+[00:42:25] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[00:42:25] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[00:42:25] [main/WARN]: Error loading class: io/github/apace100/apoli/power/factory/condition/ConditionFactory (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/factory/condition/ConditionFactory)
+[00:42:25] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
+[00:42:25] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[00:42:25] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
+[00:42:25] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[00:42:25] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[00:42:25] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[00:42:25] [main/WARN]: Force disabled MC-176559 because it's conflicting with: fabric-api
+[00:42:25] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[00:42:25] [main/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz/jei/library/load/PluginCaller)
+[00:42:25] [main/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[00:42:26] [main/INFO]: Loading Faster Random.
+[00:42:26] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[00:42:26] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/model/ModelLoadingRegistryImpl$LoaderInstance (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/model/ModelLoadingRegistryImpl$LoaderInstance)
+[00:42:26] [main/WARN]: @Mixin target net.fabricmc.fabric.impl.client.model.ModelLoadingRegistryImpl$LoaderInstance was not found modernfix-fabric.mixins.json:perf.dynamic_resources.LoaderInstanceMixin from mod modernfix
+[00:42:26] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[00:42:26] [main/WARN]: You are using connectivity for fix "Badly compressed packet - size of " + X + " is larger than protocol maximum of 8388608" if you have and issue with that delete connectivity.
+[00:42:26] [main/WARN]: Mixin 'block.packet.ChunkDeltaUpdateS2CPacketMixin' from 'polymer-core' was disabled by Connectivity Mod (connectivity). Reason: Compat. This might cause issues and isn't generally supported!
+[00:42:27] [main/INFO]: Loaded config for: recipeessentials.json
+[00:42:27] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock)
+[00:42:27] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingBushBlock was not found seasonsdelightcompat.mixins.json:BuddingBushBlockMixin from mod seasonsdelightcompat
+[00:42:27] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock)
+[00:42:27] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingTomatoBlock was not found seasonsdelightcompat.mixins.json:BuddingTomatoBlockMixin from mod seasonsdelightcompat
+[00:42:27] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock)
+[00:42:27] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.MushroomColonyBlock was not found seasonsdelightcompat.mixins.json:MushroomColonyBlockMixin from mod seasonsdelightcompat
+[00:42:27] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock)
+[00:42:27] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.RiceCropBlock was not found seasonsdelightcompat.mixins.json:RiceCropBlockMixin from mod seasonsdelightcompat
+[00:42:27] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock)
+[00:42:27] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.TomatoVineBlock was not found seasonsdelightcompat.mixins.json:TomatoVineBlockMixin from mod seasonsdelightcompat
+[00:42:27] [main/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
+[00:42:27] [main/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
+[00:42:27] [main/WARN]: Error loading class: traben/entity_model_features/models/animation/EMFAnimationHelper (java.lang.ClassNotFoundException: traben/entity_model_features/models/animation/EMFAnimationHelper)
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[00:42:27] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[00:42:27] [main/INFO]: Loaded config for: structureessentials.json
+[00:42:27] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[00:42:27] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[00:42:27] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[00:42:27] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[00:42:27] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[00:42:27] [main/INFO]: Searching for graphics cards...
+[00:42:28] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 4070 Ti', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_34f9511bafd21ff9\nvoglv64.dll', openglIcdVersion=32.0.15.6081}
+[00:42:28] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[00:42:28] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[00:42:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[00:42:28] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[00:42:28] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[00:42:29] [main/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
+[00:42:29] [main/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
+[00:42:29] [main/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
+[00:42:30] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$ikb000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:42:30] [main/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
+[00:42:30] [main/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
+[00:42:30] [main/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to md64201d$nochatreports$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[00:42:30] [main/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to md64201d$nochatreports$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[00:42:30] [main/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md64201d$nochatreports$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[00:42:30] [main/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md64201d$nochatreports$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[00:42:30] [main/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to md64201d$nochatreports$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[00:42:30] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[00:42:30] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md64201d$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[00:42:30] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md64201d$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[00:42:30] [main/WARN]: @ModifyConstant conflict. Skipping xlpackets.mixins.json:PacketByteBufMixin from mod thiccpackets->@ModifyConstant::xlPackets(J)J with priority 1000, already redirected by packetfixer-common.mixins.json:FriendlyByteBufMixin from mod packetfixer->@ModifyConstant::newSize(J)J with priority 9999
+[00:42:31] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:42:31] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:42:31] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[00:42:34] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[00:42:35] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[00:42:35] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[00:42:35] [main/INFO]: Vanilla bootstrap took 4829 milliseconds
+[00:42:35] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:42:35] [Render thread/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+[00:42:36] [Render thread/INFO]: Setting user: MonkeyMC
+[00:42:36] [Render thread/INFO]: Bypassed Mojang DFU
+[00:42:36] [Render thread/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
+[00:42:36] [Render thread/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
+[00:42:37] [Render thread/INFO]: fabric loader environment detected
+[00:42:37] [Render thread/INFO]: Loaded config for: cupboard.json
+[00:42:37] [Render thread/INFO]: [DRIPPY LOADING SCREEN] Force-initializing FancyMenu's animation engine..
+[00:42:37] [Render thread/INFO]: Loaded config everycomp-common.json
+[00:42:37] [Render thread/INFO]: Reflections took 98 ms to scan 1 urls, producing 2 keys and 7 values
+[00:42:37] [Render thread/INFO]: Trying to read config file...
+[00:42:37] [Render thread/INFO]: A config file was found, loading it..
+[00:42:37] [Render thread/INFO]: Successfully loaded config file.
+[00:42:38] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_500
+[00:42:38] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md64201d$nochatreports$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[00:42:38] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md64201d$nochatreports$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[00:42:38] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to md64201d$nochatreports$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[00:42:38] [Render thread/INFO]: Config loaded
+[00:42:38] [Render thread/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[00:42:38] [Render thread/INFO]: Initializing AManWithPlushiesMod
+[00:42:39] [Render thread/INFO]: Loaded config amendments-common.json
+[00:42:39] [Render thread/INFO]: Loaded config amendments-client.json
+[00:42:39] [Render thread/INFO]: Loaded config moonlight-client.json
+[00:42:40] [Render thread/INFO]: Constructing common components for barteringstation:main
+[00:42:40] [Render thread/INFO]: Loading client config for barteringstation
+[00:42:40] [Thread-19/INFO]: Reloading client config for barteringstation
+[00:42:40] [Thread-19/INFO]: Reloading client config for barteringstation
+[00:42:40] [Render thread/INFO]: Registering mod items for bcg_smp!
+[00:42:40] [Render thread/INFO]: Registering mod blocks for bcg_smp!
+[00:42:40] [Render thread/INFO]: Registering creative mode tabs for bcg_smp!
+[00:42:40] [Render thread/INFO]: Hello Fabric world!
+[00:42:40] [Render thread/INFO]: Registering items for bcgmusic
+[00:42:40] [Render thread/INFO]: Registering sounds for bcgmusic
+[00:42:40] [Render thread/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[00:42:40] [Render thread/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[00:42:40] [Render thread/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[00:42:41] [Render thread/INFO]: Loaded config file.
+[00:42:41] [Render thread/INFO]: Saved config file.
+[00:42:41] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[00:42:41] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[00:42:41] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[00:42:41] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[00:42:41] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[00:42:41] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[00:42:41] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[00:42:41] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[00:42:41] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:41] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:41] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:41] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:41] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[00:42:41] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[00:42:41] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:41] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:42] [Render thread/INFO]: BoatBreakFix initialized
+[00:42:42] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[00:42:42] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[00:42:42] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[00:42:42] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[00:42:42] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[00:42:42] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[00:42:42] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[00:42:42] [Render thread/INFO]: Hello Fabric world!
+[00:42:42] [Render thread/INFO]: [STDOUT]: All 6 have been set properly
+[00:42:42] [Render thread/INFO]: Initializing Cobbledex 1.1.0...
+[00:42:42] [Render thread/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[00:42:42] [Render thread/INFO]: Launching Cobblemon 1.5.2 
+[00:42:42] [Render thread/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
+[00:42:43] [Render thread/INFO]: Starting the Best Spawner...
+[00:42:43] [Render thread/INFO]: Loaded 5 spawning condition types.
+[00:42:43] [Render thread/INFO]: Loaded 5 spawning context types.
+[00:42:43] [Render thread/INFO]: Loaded 1 spawn detail types.
+[00:42:43] [Cobblemon Showdown/INFO]: Starting showdown service...
+[00:42:46] [Cobblemon Showdown/INFO]: Showdown has been started!
+[00:42:46] [Render thread/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:species_features registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:global_species_features registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:species_feature_assignments registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:action_effects registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:moves registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:abilities registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:species registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:species_additions registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:pokeballs registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:properties_tab_completion registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:spawn_rules registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:mechanics registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:bag_items registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:dialogues registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:natural_materials registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:fossils registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:spawn_pool_world registry
+[00:42:46] [Render thread/INFO]: Registered the cobblemon:berries registry
+[00:42:46] [Render thread/INFO]: Loading Collective version 7.84.
+[00:42:46] [Render thread/INFO]: Welcome to Compact Storage!
+[00:42:46] [Render thread/INFO]: Connectivity initialized
+[00:42:49] [Render thread/INFO]: Initializing CreateCobblemonMod
+[00:42:49] [Render thread/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[00:42:49] [Render thread/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[00:42:49] [Render thread/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[00:42:49] [Render thread/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[00:42:49] [Render thread/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[00:42:49] [Render thread/INFO]: Registering items for Create Deco
+[00:42:49] [Render thread/INFO]: Registering blocks for Create Deco
+[00:42:49] [Render thread/INFO]: Create Deco is accessing Porting Lib on a Fabric client!
+[00:42:49] [Render thread/INFO]: Enabled 66 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-8187, MC-12829, MC-14923, MC-22882, MC-30391, MC-31819, MC-46766, MC-55347, MC-69216, MC-72151, MC-79545, MC-80859, MC-88371, MC-89146, MC-90084, MC-90683, MC-93018, MC-93384, MC-100991, MC-108948, MC-111516, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121772, MC-121903, MC-122477, MC-122627, MC-123739, MC-124117, MC-127970, MC-129909, MC-132878, MC-135971, MC-140646, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-193343, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-227169, MC-231097, MC-231743, MC-232869, MC-237493, MC-263865]
+[00:42:49] [Render thread/INFO]: Successfully Debugify'd your game!
+[00:42:49] [Render thread/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
+[00:42:49] [Render thread/INFO]: Create: Design n' Decor is accessing Porting Lib from the client!
+[00:42:49] [Render thread/INFO]: Loaded DEUF Refabricated Config
+[00:42:49] [Render thread/INFO]: Constructing common components for diagonalblocks:main
+[00:42:49] [Render thread/INFO]: Constructing common components for diagonalfences:main
+[00:42:49] [Render thread/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 17ms
+[00:42:49] [Render thread/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 13ms
+[00:42:49] [Render thread/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 35ms
+[00:42:49] [Render thread/INFO]: Constructing common components for diagonalwalls:main
+[00:42:49] [Render thread/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 9ms
+[00:42:49] [Render thread/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=0.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 24ms
+[00:42:50] [Render thread/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 31ms
+[00:42:50] [Render thread/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 10ms
+[00:42:50] [Render thread/INFO]: Constructing common components for diagonalwindows:main
+[00:42:50] [Render thread/INFO]: Constructing shapes for DiagonalGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 8ms
+[00:42:50] [Render thread/INFO]: [DRIPPY LOADING SCREEN] Loading v3.0.2 in client-side mode on FABRIC!
+[00:42:50] [Render thread/INFO]: Constructing common components for easyanvils:main
+[00:42:50] [Render thread/INFO]: Loading client config for easyanvils
+[00:42:50] [Thread-19/INFO]: Reloading client config for easyanvils
+[00:42:50] [Thread-19/INFO]: Reloading client config for easyanvils
+[00:42:50] [Render thread/INFO]: Constructing common components for easymagic:main
+[00:42:50] [Render thread/INFO]: Loading client config for easymagic
+[00:42:50] [Thread-19/INFO]: Reloading client config for easymagic
+[00:42:50] [Render thread/INFO]: Registering Item Group for ends_delight
+[00:42:50] [Render thread/INFO]: Registering Mod Blocks for ends_delight
+[00:42:50] [Render thread/INFO]: Registering Mod Features for ends_delight
+[00:42:51] [Render thread/INFO]: Loaded EveryCompat Another Furniture Module
+[00:42:51] [Render thread/INFO]: Loaded EveryCompat Chipped Module
+[00:42:51] [Render thread/INFO]: Loaded EveryCompat Farmersdelight Module
+[00:42:51] [Render thread/INFO]: Loaded EveryCompat Friendsandfoes Module
+[00:42:51] [Render thread/INFO]: Loaded EveryCompat Handcrafted Module
+[00:42:51] [Render thread/INFO]: ExpandAbility here, who dis?
+[00:42:51] [Render thread/INFO]: [FANCYMENU] Loading v3.2.3 in client-side mode on FABRIC!
+[00:42:51] [Render thread/INFO]: ping & connect fast!
+[00:42:51] [Render thread/INFO]: Hello Fabric world from Fight or Flight!
+[00:42:52] [Render thread/INFO]: [FTB Chunks] Common Protection API integration activated
+[00:42:52] [Render thread/INFO]: Constructing common components for horseexpert:main
+[00:42:52] [Render thread/INFO]: Loading client config for horseexpert
+[00:42:52] [Thread-19/INFO]: Reloading client config for horseexpert
+[00:42:52] [Render thread/INFO]: Constructing common components for illagerinvasion:main
+[00:42:52] [Render thread/INFO]: File exists, reading config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries.
+[00:42:52] [Render thread/INFO]: Config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries read successfully.
+[00:42:52] [Render thread/INFO]: Item Obliterator Config Loaded
+[00:42:52] [Render thread/INFO]: Initializing ServerSide Packet Registries
+[00:42:52] [Render thread/INFO]: [KONKRETE] Successfully initialized!
+[00:42:52] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
+[00:42:52] [Render thread/INFO]: Constructing common components for leavemybarsalone:main
+[00:42:52] [Render thread/INFO]: Loading client config for leavemybarsalone
+[00:42:52] [Thread-19/INFO]: Reloading client config for leavemybarsalone
+[00:42:52] [Thread-19/INFO]: Reloading client config for leavemybarsalone
+[00:42:52] [Render thread/INFO]: Constructing common components for leavesbegone:main
+[00:42:52] [Render thread/INFO]: [LMFT]: Loaded Config File!
+[00:42:52] [Render thread/INFO]: Initializing LuphieclutteredmodMod
+[00:42:53] [Render thread/INFO]: Constructing common components for magnumtorch:main
+[00:42:53] [Render thread/INFO]: [MELODY] Loading Melody background audio library..
+[00:42:53] [Render thread/INFO]: Definitely not up to no good
+[00:42:53] [Render thread/INFO]: [Mythic Metals] Terralith detected. Please go over the config and disable Overworld Nether Ores
+[00:42:53] [Render thread/INFO]: [Mythic Metals] Many ores spawn in unexpected ways due to the new overworld. Modpack devs, take note of this
+[00:42:53] [Render thread/INFO]: [Mythic Metals] Mythic Metals is now initialized.
+[00:42:53] [Render thread/INFO]: Necronomicon Initialized
+[00:42:53] [Render thread/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[00:42:53] [Render thread/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[00:42:54] [Render thread/INFO]: Hey, it's Night Lights
+[00:42:54] [Render thread/INFO]: Registering blocks and block items for nightlights
+[00:42:54] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[00:42:54] [Render thread/INFO]: Default JVM text encoding is: windows-1252
+[00:42:54] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[00:42:54] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[00:42:54] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[00:42:54] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[00:42:54] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[00:42:54] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[00:42:54] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[00:42:54] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[00:42:54] [Render thread/INFO]: Client initialization...
+[00:42:54] [Render thread/INFO]: Registering Items for oceansdelight
+[00:42:54] [Render thread/INFO]: Registering Blocks for oceansdelight
+[00:42:54] [Render thread/INFO]: Registering tabs for oceansdelight
+[00:42:54] [Render thread/INFO]: Constructing common components for overflowingbars:main
+[00:42:54] [Render thread/INFO]: Loading client config for overflowingbars
+[00:42:54] [Thread-19/INFO]: Reloading client config for overflowingbars
+[00:42:54] [Render thread/INFO]: :ctft: literally infinite and counting
+[00:42:54] [Render thread/INFO]: Packet Fixer has been initialized successfully
+[00:42:54] [Render thread/INFO]: Constructing common components for permanentsponges:main
+[00:42:54] [Render thread/INFO]: [Ping-Wheel] Init
+[00:42:54] [Render thread/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, msToRegenerate=1000, rateLimit=5)
+[00:42:54] [Render thread/INFO]: Constructing common components for puzzleslib:main
+[00:42:54] [Render thread/INFO]: Registered bogey styles from railways
+[00:42:54] [Render thread/INFO]: Registering data fixers
+[00:42:54] [Render thread/INFO]: Instantiating Mojang DFU
+[00:42:55] [Render thread/INFO]: Registering tracks for Hex Casting
+[00:42:55] [Render thread/INFO]: Registering tracks for Oh The Biomes You'll Go
+[00:42:55] [Render thread/INFO]: Registering tracks for Blue Skies
+[00:42:55] [Render thread/INFO]: Registering tracks for Twilight Forest
+[00:42:55] [Render thread/INFO]: Registering tracks for Biomes O' Plenty
+[00:42:55] [Render thread/INFO]: Registering tracks for Nature's Spirit
+[00:42:55] [Render thread/INFO]: Registering tracks for Dreams and Desires
+[00:42:55] [Railways Datafixer Bootstrap/INFO]: 2 Datafixer optimizations took 21 milliseconds
+[00:42:55] [Render thread/INFO]: Registering tracks for Quark
+[00:42:55] [Render thread/INFO]: Registering tracks for TerraFirmaCraft
+[00:42:55] [Datafixer Bootstrap/INFO]: Loaded config for: connectivity.json
+[00:42:55] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 119 milliseconds
+[00:42:55] [Render thread/INFO]: Reflections took 7 ms to scan 1 urls, producing 6 keys and 36 values
+[00:42:55] [Render thread/INFO]: Reflections took 5 ms to scan 1 urls, producing 6 keys and 36 values
+[00:42:55] [Render thread/INFO]: Registering Ribbit instruments...
+[00:42:55] [Render thread/INFO]: Registering Ribbit umbrella types...
+[00:42:55] [Render thread/INFO]: Registering Ribbit professions...
+[00:42:55] [Render thread/INFO]: Registering Ribbit data serializers...
+[00:42:55] [Render thread/INFO]: Initializing Scribe...
+[00:42:55] [Render thread/INFO]: Setting up discord client
+[00:42:55] [Render thread/INFO]: [Fabric Seasons] Trying to read config file...
+[00:42:55] [Render thread/INFO]: [Fabric Seasons] A config file was found, loading it..
+[00:42:55] [Render thread/INFO]: [Fabric Seasons] Successfully loaded config file.
+[00:42:55] [Render thread/INFO]: [Fabric Seasons] Successfully loaded seasonsdelightcompat 1.0 for farmersdelight 1.3.9
+[00:42:55] [Render thread/INFO]: [Fabric Seasons] Successfully loaded seasonsterralithcompat 1.0 for terralith 2.3.7
+[00:42:55] [Render thread/INFO]: Loaded 238 hat entries from simplehats.json
+[00:42:55] [Render thread/INFO]: Generated 238 hat items from hat entries.
+[00:42:55] [pool-6-thread-1/INFO]: Found preferred client: ANY
+[00:42:55] [Render thread/INFO]: [STDOUT]: C:\Users\Alex\curseforge\minecraft\Instances\The Dome Part 3\config
+[00:42:55] [Render thread/INFO]: Registering Mythic Metals compat Items for simplyswords
+[00:42:56] [Render thread/INFO]: Loaded config snowyspirit-common.json
+[00:42:56] [Render thread/INFO]: Reloaded configs for spiceoffabric (universal/highest)
+[00:42:56] [Render thread/INFO]: structureessentials mod initialized
+[00:42:56] [Render thread/INFO]: Constructing common components for stylisheffects:main
+[00:42:56] [Render thread/INFO]: Loading client config for stylisheffects
+[00:42:56] [Thread-19/INFO]: Reloading client config for stylisheffects
+[00:42:56] [Render thread/INFO]: Loaded config supplementaries-common.json
+[00:42:56] [Render thread/INFO]: Loaded config supplementaries-client.json
+[00:42:57] [Render thread/INFO]: Tom's Storage Setup starting
+[00:42:57] [Render thread/INFO]: Constructing common components for tradingpost:main
+[00:42:57] [Render thread/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[00:42:57] [Render thread/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[00:42:57] [Render thread/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[00:42:57] [Render thread/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[00:42:57] [Render thread/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[00:42:57] [Render thread/INFO]: Constructing common components for visualworkbench:main
+[00:42:57] [Render thread/INFO]: Loading client config for visualworkbench
+[00:42:57] [Thread-19/INFO]: Reloading client config for visualworkbench
+[00:42:57] [Thread-19/INFO]: Reloading client config for visualworkbench
+[00:42:57] [Render thread/INFO]: [voicechat] Compatibility version 18
+[00:42:57] [Render thread/INFO]: [voicechat] Loading plugins
+[00:42:57] [Render thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[00:42:57] [Render thread/INFO]: [voicechat] Initializing plugins
+[00:42:57] [Render thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[00:42:57] [Render thread/INFO]: [STDOUT]: Config updated!
+[00:42:57] [Render thread/INFO]: [STDOUT]: Config loaded!
+[00:42:57] [Render thread/INFO]: XercaMusic: Registering tile entities
+[00:42:57] [Render thread/INFO]: File exists, reading config for elocindev.ysns.config.DisabledEntities.
+[00:42:57] [Render thread/INFO]: Config for elocindev.ysns.config.DisabledEntities read successfully.
+[00:42:57] [Render thread/INFO]: File exists, reading config for elocindev.ysns.config.PerDimensionEntities.
+[00:42:57] [Render thread/INFO]: Config for elocindev.ysns.config.PerDimensionEntities read successfully.
+[00:42:57] [Render thread/INFO]: You Shall Not Spawn's Config initialized
+[00:42:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[00:42:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[00:42:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:42:58] [Render thread/INFO]: Chose [Entity Tags] as the active game stages implementation
+[00:42:58] [Render thread/INFO]: Chose [FALLBACK] as the active permissions implementation
+[00:42:58] [Render thread/INFO]: [FTB Quests] recipe helper provider is [NO-OP]
+[00:42:58] [Render thread/INFO]: [FTB Quests] Enabled Item Filters integration
+[00:42:58] [Render thread/INFO]: Constructing client components for barteringstation:main
+[00:42:59] [Render thread/WARN]: Method overwrite conflict for getChildren in friendsandfoes-common.mixins.json:ModelPartAccessor from mod friendsandfoes, previously written by com.cobblemon.mod.common.mixin.ModelPartMixin. Skipping method.
+[00:42:59] [Render thread/INFO]: Reloading Configs
+[00:42:59] [Render thread/INFO]: Fabric Client Initialized
+[00:42:59] [Render thread/INFO]: Initializing Cobblemon client
+[00:42:59] [Render thread/INFO]: Registering Pokémon renderer
+[00:42:59] [Render thread/INFO]: Registering PokéBall renderer
+[00:42:59] [Render thread/INFO]: Registering Boat renderer
+[00:42:59] [Render thread/INFO]: Registering Boat with Chest renderer
+[00:42:59] [Render thread/INFO]: Registering Generic Bedrock Entity renderer
+[00:42:59] [Render thread/INFO]: Registering custom BuiltinItemRenderers
+[00:43:00] [Render thread/INFO]: Loading Description Cache
+[00:43:00] [Render thread/INFO]: Constructing client components for diagonalblocks:main
+[00:43:00] [Render thread/INFO]: Constructing client components for easyanvils:main
+[00:43:00] [Render thread/INFO]: Constructing client components for easymagic:main
+[00:43:00] [Render thread/INFO]: Loading Entity Model Features, now moving all models 0.00001 blocks to the left every 4 seconds.
+[00:43:00] [Render thread/INFO]: 6 new ETF Random Properties registered by entity_model_features.
+[00:43:00] [Render thread/INFO]: Loading Entity Texture Features, why does no one download Solid Mobs :(
+[00:43:00] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[00:43:00] [Render thread/INFO]: farsight mod initialized
+[00:43:00] [Render thread/INFO]: Iris detected.
+[00:43:00] [Render thread/INFO]: Constructing client components for horseexpert:main
+[00:43:00] [Render thread/INFO]: Constructing client components for illagerinvasion:main
+[00:43:00] [Render thread/INFO]: Iris-Flywheel-Compat initialized!
+[00:43:00] [Render thread/INFO]: FTBChunks integration loaded.
+[00:43:01] [Render thread/ERROR]: Mod chefsdelight provides a broken implementation of ModMenuApi
+net.fabricmc.loader.api.EntrypointException: Exception while loading entries for entrypoint 'modmenu' provided by 'chefsdelight'
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:56) ~[fabric-loader-0.16.0.jar:?]
+	at com.terraformersmc.modmenu.ModMenu.lambda$onInitializeClient$1(ModMenu.java:74) ~[modmenu-7.2.2.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at com.terraformersmc.modmenu.ModMenu.onInitializeClient(ModMenu.java:70) ~[modmenu-7.2.2.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.16.0.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[fabric-loader-0.16.0-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.0.jar:?]
+Caused by: net.fabricmc.loader.api.LanguageAdapterException: java.lang.ClassNotFoundException: net.redstonegames.chefsdelight.config.ModMenuIntegration
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:52) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.16.0.jar:?]
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: net.redstonegames.chefsdelight.config.ModMenuIntegration
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.0.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.16.0.jar:?]
+	... 10 more
+[00:43:01] [Render thread/INFO]: Registering config screens for mod charmofundying with 1 config(s)
+[00:43:01] [Render thread/INFO]: Registering config screens for mod comforts with 1 config(s)
+[00:43:01] [Render thread/INFO]: Initialized block sets in 27ms
+[00:43:01] [Render thread/INFO]: Loaded config everycomp-entries.json
+[00:43:01] [Render thread/INFO]: Registering Compat Wood Blocks
+[00:43:02] [Render thread/INFO]: Registering Compat Leaves Blocks
+[00:43:02] [Render thread/INFO]: Loaded config fastpaintings-common.json
+[00:43:02] [Render thread/INFO]: Loaded config snowyspirit-client.json
+[00:43:02] [Render thread/WARN]: Chipped is installed. The mod on its own adds a ludicrous amount of blocks. With Every Compat this can easily explode. You have been warned
+[00:43:02] [Render thread/INFO]: Registered 6190 compat blocks making up 26.24% of total blocks registered
+[00:43:02] [Render thread/INFO]: Initialized color sets in 82ms
+[00:43:02] [Render thread/INFO]: Finished mod setup in: [25, 1, 0, 0, 0, 0, 19, 12, 1] ms
+[00:43:02] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[00:43:02] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[00:43:03] [Render thread/INFO]: Constructing client components for overflowingbars:main
+[00:43:03] [Render thread/INFO]: [Ping-Wheel] Loaded ClientConfig(pingVolume=50, pingDuration=7, pingDistance=208, correctionPeriod=1.0, itemIconVisible=true, directionIndicatorVisible=true, nameLabelForced=false, pingSize=100, channel=, removeRadius=10, raycastDistance=1024, safeZoneLeft=5, safeZoneRight=5, safeZoneTop=5, safeZoneBottom=60)
+[00:43:03] [Render thread/INFO]: Constructing client components for puzzleslib:main
+[00:43:03] [Render thread/INFO]: Reacharound Initializing.
+[00:43:03] [Render thread/INFO]: Reacharound Initialized.
+[00:43:03] [Render thread/INFO]: Constructing client components for stylisheffects:main
+[00:43:03] [Render thread/INFO]: Saving config to C:\Users\Alex\curseforge\minecraft\Instances\The Dome Part 3\config\toolstats.json.
+[00:43:03] [Render thread/INFO]: Constructing client components for tradingpost:main
+[00:43:03] [Render thread/INFO]: Resource provider initialized, side is CLIENT
+[00:43:03] [Render thread/INFO]: Constructing client components for visualworkbench:main
+[00:43:04] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[00:43:04] [Render thread/INFO]: [voicechat] Loading Opus
+[00:43:04] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\Alex\curseforge\minecraft\Instances\The Dome Part 3\config\yacl.json5'
+[00:43:04] [Render thread/INFO]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.class_315
+[00:43:04] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to md64201d$nochatreports$lambda$onlyShowSecureChat$0$6 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[00:43:04] [Render thread/INFO]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_338
+[00:43:04] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md64201d$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[00:43:04] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to md64201d$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[00:43:04] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[00:43:04] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$64201d$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[00:43:04] [Render thread/INFO]: Loaded config for: farsight.json
+[00:43:04] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[00:43:04] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[00:43:04] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.21+1.20.4 on NVIDIA GeForce RTX 4070 Ti/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 560.81
+[00:43:04] [Render thread/INFO]: Found Iris/Oculus 1.7.2+mc1.20.1. Enabling compatibility.
+[00:43:05] [Render thread/INFO]: Debug functionality is disabled.
+[00:43:05] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[00:43:05] [Render thread/INFO]: Profile: Custom (+18 options changed by user)
+[00:43:05] [Render thread/INFO]: irisflw.mixins.iris.json:ProgramSetMixin from mod irisflw->@Invoker[METHOD_PROXY]::callReadProgramSource(Lnet/irisshaders/iris/shaderpack/include/AbsolutePackPath;Ljava/util/function/Function;Ljava/lang/String;Lnet/irisshaders/iris/shaderpack/programs/ProgramSet;Lnet/irisshaders/iris/shaderpack/properties/ShaderProperties;Z)Lnet/irisshaders/iris/shaderpack/programs/ProgramSource; should be static as its target is
+[00:43:05] [Render thread/INFO]: irisflw.mixins.iris.json:ProgramSetMixin from mod irisflw->@Invoker[METHOD_PROXY]::callReadProgramSource(Lnet/irisshaders/iris/shaderpack/include/AbsolutePackPath;Ljava/util/function/Function;Ljava/lang/String;Lnet/irisshaders/iris/shaderpack/programs/ProgramSet;Lnet/irisshaders/iris/shaderpack/properties/ShaderProperties;Lnet/irisshaders/iris/gl/blending/BlendModeOverride;Z)Lnet/irisshaders/iris/shaderpack/programs/ProgramSource; should be static as its target is
+[00:43:05] [Render thread/INFO]: Using shaderpack: ComplementaryReimagined_r5.2.2 - Modified by BCG.zip
+[00:43:06] [Render thread/INFO]: Block minecraft:water_cauldron had its color provider replaced with net.mehvahdjukaar.amendments.AmendmentsClient$$Lambda$25938/0x0000000803008220@1d82e028 and will not use per-vertex coloring
+[00:43:06] [Render thread/INFO]: Hardware information:
+[00:43:06] [Render thread/INFO]: CPU: 16x 12th Gen Intel(R) Core(TM) i9-12900K
+[00:43:06] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 4070 Ti/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 560.81)
+[00:43:06] [Render thread/INFO]: OS: Windows 11 (10.0)
+[00:43:06] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[00:43:06] [Render thread/INFO]: [FANCYMENU] Registering resource reload listener..
+[00:43:07] [Render thread/INFO]: [FANCYMENU] Initializing screen customization engine! Addons should NOT REGISTER TO REGISTRIES anymore now!
+[00:43:07] [Render thread/INFO]: Mixing client.MixinConnectScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_412
+[00:43:07] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_404
+[00:43:07] [Render thread/INFO]: Renaming synthetic method lambda$init$0(Lnet/minecraft/class_339;)V to md64201d$nochatreports$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen from mod nochatreports
+[00:43:07] [Render thread/INFO]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_7594
+[00:43:07] [Render thread/INFO]: Running data generation for dynamic pack resources provided by 'diagonalblocks'
+[00:43:07] [Render thread/INFO]: Data generation for dynamic pack resources provided by 'diagonalblocks' took 103ms
+[00:43:07] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[00:43:07] [Render thread/INFO]: Invalidating pack caches
+[00:43:07] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (a_man_with_plushies, additionalentityattributes, ae2, alloy_forgery, almostunified, alternate-current, amendments, another_furniture, appleskin, artifacts, attributefix, automobility, axolotlitemfix, bakery, balm-fabric, barteringstation, bbb, bcg_smp, bcgmusic, bcgutil, bclib, beautify, bedbenefits, betterbeds, bettercombat, betterdungeons, betterend, betterendisland, bettermineshafts, betteroceanmonuments, betterstrongholds, betterthirdperson, bhmenu, bitsandchisels, blahaj, bookshelf, borderlessmining, brewery, bwncr, caffeineconfig, candlelight, capsaicin, cardinal-components-base, cardinal-components-block, cardinal-components-entity, cardinal-components-item, carryon, charmofundying, chat_heads, chefsdelight, chimes, chipped, clickadv, cloth-config, clumps, coat, cobbledex, cobblemon, cobblemon-ui-tweaks, cobblemon_quests, cobblemon_spawn_notification, cobblepedia, codec-config-api, comforts, compact_storage, conditional-mixin, connectivity, controlling, convenientdecor, copycats, crawl, create, create_cobblemon, create_enchantment_industry, createaddition, createdeco, creeperoverhaul, customcursorcomm, dailyshop, darkutils, debugify, design_decor, doapi, dragonfight, drippyloadingscreen, dripstone_fluid_lib, e4mc_minecraft, easyanvils, easymagic, emi, emi_letsdo_compat, endermanoverhaul, endrem, ends_delight, entity_model_features, entity_texture_features, entityculling, everycomp, expandeddelight, explorerscompass, explosiveenhancement, exposure, extendedgears, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, fancymenu, farmersdelight, farsight, faster-random, fastipping, fastpaintings, fightorflight, flowerymooblooms, flywheel, forgeconfigapiport, friendsandfoes, ftbchunks, ftbessentials, ftblibrary, ftbquests, ftbteams, ftbultimine, ftbxmodcompat, fzzy_config, geckolib, getittogetherdrops, globalpacks, go-fish, grindenchantments, guarding, guardvillagers, gymbadges, hamsters, handcrafted, herbalbrews, herdspanic, horseexpert, icarus, idwtialsimmoedm, illagerinvasion, immediatelyfast, immersive_aircraft, immersive_paintings, incantationem, incendium, indium, inventoryprofilesnext, iris, irisflw, item_obliterator, itemcollectors, itemfilters, jade, jankson, jmi, journeymap, jsonem, jumpoverfences, konkrete, languagereload, lavender, lavender-md, letmedespawn, libgui, libipn, lithium, lmft, logbegone, lootintegrations, lootr, luphieclutteredmod, magnumtorch, man_of_many_planes, mavapi, mavm, mcwbridges, mcwdoors, mcwfences, mcwfurnitures, mcwlights, mcwpaths, mcwroofs, mcwtrpdoors, mcwwindows, midnightlib, mighty_mail, milk, mine-spawners, mixintrace, mm, modernfix, modmenu, moonlight, more-axolotl, mss, mvs, mythicmetals, naturalist, naturescompass, necronomicon, neruina, netherportalfix, nightlights, nochatreports, notenoughanimations, oceansdelight, omega-config, overflowingbars, owo, packetfixer, particle_core, patchouli, permanentsponges, pigpen, ping-wheel, plushies, polymer-core, polymer-resource-pack, polymorph, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_recipe_book_categories, porting_lib_registries, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, railways, reach-entity-attributes, reacharound, reeses-sodium-options, registrate-fabric, ribbits, runelic, scribe, sdrp, searchables, seasonhud, seasons, seasonsdelightcompat, seasonsterralithcompat, selling-bin, serverredirect, shadertoggle, simplehats, simplyswords, sliceanddice, smallships, snowyspirit, sodium, sodium-extra, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorage, spark, spiceoffabric, spruceui, stacc, starterkit, step-height-entity-attribute, structory, structory_towers, structureessentials, stylisheffects, supermartijn642corelib, supplementaries, suppsquared, team_reborn_energy, terrablender, terraform-wood-api-v1, things, toms_storage, toolstats, trade_cycling, tradingpost, trashcans, travelersbackpack, trinkets, tweed4_annotated, tweed4_base, tweed4_data, tweed4_data_hjson, tweed4_tailor_coat, tweed4_tailor_lang_json_descriptions, tweed4_tailor_screen, ubesdelight, universal_shops, vanityslots, vinery, voicechat, wands, watut, xercamusic, xercapaint, yet_another_config_lib_v3, yigd, yosbr, ysns, zoomify), file/MoreMons - BCG Modified.zip, file/MissingMon - BCG Modified.zip, file/MysticMons - BCG Modified.zip, seasons:seasonal_lush_caves, file/Whimscape_1.20-1.20.1_r1.zip, Moonlight Mods Dynamic Assets, file/FreshAnimations_v1.9.2.zip, file/FA+All_Extensions-v1.4.zip, convenientdecor:hydrated_farmland, file/Incendium_Optional_Resourcepack_1.20.1_v5.3.7.zip, file/Create Simple Storage 2.1.zip, file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip, betterbeds:fancyconnectedbeds, file/Vivillon Pride Patterns v1.0.zip, file/JourneyMon-NoVanilla.zip, file/Cobblemon Icons v3.1.zip, file/Rainbow Legendaries.zip, file/Joe's Comfy UI-1.1.0.zip, file/BCG+ Compat Pack.zip, file/BCG+ Datapack.zip, file/BCG+ Sound Pack.zip, file/BCG+ x Whimscape Compat Pack.zip, file/BCG+ Cobblemon Loot Pack.zip, file/Serified Font v1.1 f1-34.zip, diagonalblocks:default_block_models
+[00:43:07] [Render thread/WARN]: Ignored non-lowercase namespace: .DS_Store in C:\Users\Alex\curseforge\minecraft\Instances\The Dome Part 3\resourcepacks\MoreMons - BCG Modified.zip
+[00:43:07] [Render thread/WARN]: Ignored non-lowercase namespace: .DS_Store in C:\Users\Alex\curseforge\minecraft\Instances\The Dome Part 3\resourcepacks\MoreMons - BCG Modified.zip
+[00:43:07] [Render thread/WARN]: Failed to generate record item texture for doge. No model / texture found
+[00:43:07] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (amendments) in: 96 ms
+[00:43:10] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (everycomp) in: 2560 ms
+[00:43:10] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 1 ms
+[00:43:10] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (snowyspirit) in: 6 ms
+[00:43:10] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 29 ms
+[00:43:10] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (suppsquared) in: 17 ms
+[00:43:10] [Worker-ResourceReload-9/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[00:43:11] [Worker-ResourceReload-7/WARN]: File cobblemon:sounds/pokemon/rattata/rattata_alolan_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.rattata_alolan.cry
+[00:43:11] [Worker-ResourceReload-7/WARN]: File cobblemon:sounds/pokemon/petilil/petilil_hisui_bias_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.petilil_hisui_bias.cry
+[00:43:11] [Render thread/INFO]: [DRIPPY LOADING SCREEN] Initializing fonts for text rendering..
+[00:43:11] [Render thread/INFO]: [DRIPPY LOADING SCREEN] Calculating animation sizes for FancyMenu..
+[00:43:11] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: drippy_loading_overlay
+[00:43:11] [Worker-ResourceReload-10/WARN]: Unused frames in sprite simplehats:item/hats/rgbtophat: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+[00:43:12] [Render thread/INFO]: [FANCYMENU] Preloading animations! This could cause the loading screen to freeze for a while..
+[00:43:12] [Render thread/INFO]: [FANCYMENU] Finished preloading animations!
+[00:43:12] [Render thread/INFO]: [FANCYMENU] Starting late client initialization phase..
+[00:43:12] [Worker-ResourceReload-8/WARN]: Unused frames in sprite simplehats:item/hats/rgbtophat_e: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+[00:43:12] [Worker-ResourceReload-2/WARN]: Unused frames in sprite gofish:item/galaxy_starfish: [5, 6, 7]
+[00:43:12] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
+[00:43:12] [Worker-ResourceReload-2/WARN]: Unused frames in sprite minecraft:entity/conduit/wind: [22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+[00:43:12] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
+[00:43:12] [Worker-ResourceReload-6/WARN]: Unused frames in sprite minecraft:entity/conduit/wind_vertical: [22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+[00:43:12] [Worker-ResourceReload-0/WARN]: Texture everycomp:block/bbb/betterend/lantern/tenanea with size 18x16 limits mip level from 4 to 1
+[00:43:12] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[00:43:12] [Worker-ResourceReload-0/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[00:43:12] [Worker-ResourceReload-0/INFO]: Early baking 974 models
+[00:43:13] [Worker-ResourceReload-0/WARN]: Method overwrite conflict for getSprite in bitsandchisels.mixins.json:BakedQuadAccessor from mod bitsandchisels, previously written by me.jellysquid.mods.sodium.mixin.core.model.quad.BakedQuadMixin. Skipping method.
+[00:43:15] [Render thread/INFO]: Game entered main loop!
+[00:43:15] [Render thread/INFO]: Loaded values for 36 compatible attributes.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:water_visibility' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:water_speed' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:critical_bonus_damage' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:magic_protection' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:lava_visibility' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:bonus_loot_count_rolls' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:lung_capacity' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:lava_speed' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:bonus_rare_loot_rolls' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:dig_speed' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/ERROR]: Attribute ID 'additionalentityattributes:dropped_experience' does not belong to a known attribute. This entry will be ignored.
+[00:43:15] [Render thread/INFO]: Loaded 47 values from config.
+[00:43:15] [Render thread/INFO]: Saving config file. 47 entries.
+[00:43:15] [Render thread/INFO]: Applying changes for 47 attributes.
+[00:43:15] [Render thread/INFO]: Loaded config for: clickadv.json
+[00:43:15] [Render thread/INFO]: Loaded config for: dragonfight.json
+[00:43:15] [Render thread/INFO]: Loaded config for: lootintegrations.json
+[00:43:16] [Render thread/INFO]: Start loading plugin from Applied Energistics 2
+[00:43:16] [Render thread/INFO]: Start loading plugin from Beautify
+[00:43:16] [Render thread/INFO]: Start loading plugin from Exposure
+[00:43:16] [Render thread/INFO]: Start loading plugin from Jade
+[00:43:16] [Render thread/INFO]: Start loading plugin from Jade
+[00:43:16] [Render thread/INFO]: Start loading plugin from Jade
+[00:43:16] [Render thread/INFO]: Start loading plugin from Polymer (Core)
+[00:43:16] [Render thread/INFO]: Start loading plugin from Sophisticated Storage
+[00:43:16] [Render thread/INFO]: Start loading plugin from Supplementaries
+[00:43:16] [Render thread/INFO]: Initializing ClientSide Packet Registries
+[00:43:16] [Render thread/INFO]: Found @IClientPlugin: me.frankv.jmi.JMIJourneyMapPlugin
+[00:43:16] [Render thread/INFO]: Found @IClientPlugin: com.railwayteam.railways.compat.journeymap.RailwayMapPlugin
+[00:43:16] [Render thread/INFO]: Initialized me.frankv.jmi.JMIJourneyMapPlugin
+[00:43:17] [Worker-Main-13/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[00:43:18] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[00:43:18] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[00:43:18] [Render thread/WARN]: Missing sound for event: chimes:ambient.outdoor.wind
+[00:43:18] [Render thread/WARN]: Missing sound for event: cobblemon:pokemon.evolving
+[00:43:18] [Render thread/WARN]: Missing sound for event: naturalist:rubber_ducky_death
+[00:43:18] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
+[00:43:18] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Yeti Nano)
+[00:43:18] [Render thread/INFO]: Sound engine started
+[00:43:18] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[00:43:18] [Render thread/INFO]: Created: 8192x4096x1 minecraft:textures/atlas/blocks.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/armor_trims.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[00:43:18] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[00:43:20] [Render thread/INFO]: emissive suffixes loaded: {_e}.
+[00:43:24] [Render thread/WARN]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[00:43:24] [Render thread/WARN]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[00:43:24] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[00:43:24] [Render thread/INFO]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
+[00:43:24] [Render thread/WARN]: Missing particle sprites: cobblemon:mushroommize
+[00:43:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[00:43:24] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[00:43:24] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[00:43:24] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[00:43:24] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[00:43:24] [Render thread/INFO]: Reloading grave model (client)
+[00:43:24] [Render thread/INFO]: Grave model and shape reload successful (client)
+[00:43:25] [Render thread/INFO]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
+[00:43:25] [Render thread/INFO]: Loading assets...
+[00:43:25] [Render thread/INFO]: Loading particle effects...
+[00:43:25] [Render thread/INFO]: Loaded 531 particle effects
+[00:43:25] [Render thread/INFO]: Loading animations...
+[00:43:26] [Render thread/INFO]: Loaded 4715 animations from 810 animation groups
+[00:43:26] [Render thread/INFO]: Loading Pokémon models...
+[00:43:26] [Render thread/INFO]: Loaded 874 Pokémon models.
+[00:43:27] [Render thread/WARN]: Invalid path in datapack: cobblemon:bedrock/pokemon/resolvers/0142_aerodactyl/0_aerodactyl_base .json, ignoring
+[00:43:27] [Render thread/WARN]: Invalid path in datapack: cobblemon:bedrock/pokemon/resolvers/0495_snivy/0_snivy_base .json, ignoring
+[00:43:27] [Render thread/WARN]: Invalid path in datapack: cobblemon:bedrock/pokemon/resolvers/0496_servine/0_servine_base .json, ignoring
+[00:43:27] [Render thread/WARN]: Invalid path in datapack: cobblemon:bedrock/pokemon/resolvers/0497_serperior/0_serperior_base .json, ignoring
+[00:43:27] [Render thread/INFO]: Loading Poké Ball models...
+[00:43:27] [Render thread/INFO]: Loaded 2 Poké Ball models.
+[00:43:27] [Render thread/INFO]: Loaded 71 berry models
+[00:43:27] [Render thread/INFO]: Loading Fossil Pokémon models...
+[00:43:27] [Render thread/INFO]: Loaded 19 Fossil Pokémon models.
+[00:43:27] [Render thread/INFO]: Loading Block Entity models...
+[00:43:27] [Render thread/INFO]: Loaded 1 Block Entity models.
+[00:43:27] [Render thread/INFO]: Loading Generic models...
+[00:43:27] [Render thread/INFO]: Loaded 1 Generic models.
+[00:43:27] [Render thread/INFO]: Loaded 0 misc models
+[00:43:27] [Render thread/INFO]: Loaded assets
+[00:43:27] [Render thread/INFO]: Loading exposure filters:
+[00:43:27] [Render thread/INFO]: Filter [exposure:light_blue_pane, exposure:shaders/light_blue_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:orange_pane, exposure:shaders/orange_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:red_pane, exposure:shaders/red_filter.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:purple_pane, exposure:shaders/purple_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:blue_pane, exposure:shaders/blue_filter.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:light_gray_pane, exposure:shaders/light_gray_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:magenta_pane, exposure:shaders/magenta_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:gray_pane, exposure:shaders/gray_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:lime_pane, exposure:shaders/lime_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:green_pane, exposure:shaders/green_filter.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:pink_pane, exposure:shaders/pink_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:yellow_pane, exposure:shaders/yellow_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:white_pane, exposure:shaders/white_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:brown_pane, exposure:shaders/brown_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:glass_pane, exposure:shaders/crisp.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:interplanar_projector, exposure:shaders/invert.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:black_pane, exposure:shaders/black_tint.json] added.
+[00:43:27] [Render thread/INFO]: Filter [exposure:cyan_pane, exposure:shaders/cyan_tint.json] added.
+[00:43:28] [Render thread/INFO]: Loaded all shader sources.
+[00:43:28] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 792 jsons
+[00:43:28] [Render thread/INFO]: [Fabric Seasons] Successfully loaded 38 custom grass colors.
+[00:43:28] [Render thread/INFO]: [Fabric Seasons] Successfully loaded 42 custom foliage colors.
+[00:43:29] [Render thread/INFO]: Reloaded configs for spiceoffabric (client/smallest)
+[00:43:29] [Render thread/INFO]: Successfully loaded image 'supplementaries:textures/block/gottem.gif'
+[00:43:29] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
+[00:43:29] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
+[00:43:29] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
+[00:43:29] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
+[00:43:29] [Render thread/INFO]: Successfully loaded image 'cobblemon:textures/particle/shiny_send_out.gif'
+[00:43:29] [Render thread/INFO]: reloading ETF data.
+[00:43:29] [Render thread/INFO]: emissive suffixes loaded: {_e}.
+[00:43:29] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[00:43:29] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[00:43:31] [Render thread/WARN]: Game took 70.658 seconds to start
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:43] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:44] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:48] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:50] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:52] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:55] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:55] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:55] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:56] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:56] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:56] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:56] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:43:56] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:44:01] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: options_screen
+[00:44:01] [Render thread/INFO]: Mixing client.MixinRowHelper from mixins/common/nochatreports.mixins.json into net.minecraft.class_7845$class_7939
+[00:44:01] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:44:01] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:44:01] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:44:01] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:44:01] [Render thread/WARN]: Attempted to add context to update queue, operation failed due to a full list, something is likely wrong here or the discord client isn't present
+[00:45:39] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[00:45:39] [Render thread/INFO]: Stopping!
+[00:45:39] [Render thread/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[00:45:39] [Thread-52/INFO]: [EMI] Clearing data
+[00:45:39] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
+[00:45:39] [Render thread/INFO]: emissive suffixes loaded: {_e}.
+[00:45:39] [Render thread/INFO]: Shutting down map thread
