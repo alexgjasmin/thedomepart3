@@ -1,0 +1,33 @@
+# Last execution: 13-09-2024 22:27:23
+# Overview:
+	- Unified: 910
+	- Duplicates: 16 (Individual: 34)
+	- Total Recipes: 18995
+	- Elapsed Time: 4169ms
+
+# Summary: 
+Recipe type                                   |    Unifies | Duplicates |   All
+-------------------------------------------------------------------------------
+ae2:inscriber                                 |          4 |            |    15
+alloy_forgery:forging                         |         15 |            |   113
+automobility:auto_mechanic_table              |         20 |            |    63
+bclib:alloying                                |          1 |            |     8
+create:compacting                             |          1 |            |    13
+create:crushing                               |         25 |            |   128
+create:deploying                              |          6 |            |    84
+create:haunting                               |          2 |            |    27
+create:item_application                       |          2 |            |    40
+create:mechanical_crafting                    |          4 |            |    79
+create:mixing                                 |          1 |            |    42
+create:pressing                               |          8 |    1 (  2) |    38
+create:sequenced_assembly                     |          1 |            |   116
+createaddition:rolling                        |          1 |            |    10
+guarding:smithing_transform_shield            |          1 |            |     1
+minecraft:blasting                            |         24 |    7 ( 15) |   150
+minecraft:crafting_shaped                     |        615 |            | 10958
+minecraft:crafting_shapeless                  |         61 |    1 (  2) |  2097
+minecraft:smelting                            |         24 |    7 ( 15) |   267
+minecraft:smithing_transform                  |         41 |            |   192
+minecraft:stonecutting                        |         51 |            |  3383
+sophisticatedbackpacks:smithing_backpack_upgrade |          1 |            |     1
+travelersbackpack:backpack_shaped             |          1 |            |    42
