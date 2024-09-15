@@ -1,4 +1,4 @@
-# Last execution: 13-09-2024 22:27:23
+# Last execution: 15-09-2024 19:52:04
 ae2:inscriber {
 	- ae2:inscriber/calculation_processor_press
 		    Original: {"type":"ae2:inscriber","ingredients":{"middle":{"item":"minecraft:iron_block"},"top":{"item":"ae2:calculation_processor_press"}},"mode":"inscribe","result":{"item":"ae2:calculation_processor_press"}}
@@ -261,7 +261,7 @@ create:crushing {
 
 	- create:crushing/raw_iron
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_iron"}],"processingTime":400,"results":[{"item":"create:crushed_raw_iron"},{"chance":0.75,"item":"create:experience_nugget"}]}
-		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:raw_iron_ores"}],"processingTime":400,"results":[{"item":"create:crushed_raw_iron"},{"chance":0.75,"item":"create:experience_nugget"}]}
+		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:iron_raw_materials"}],"processingTime":400,"results":[{"item":"create:crushed_raw_iron"},{"chance":0.75,"item":"create:experience_nugget"}]}
 
 	- create:crushing/raw_iron_block
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_iron_block"}],"processingTime":400,"results":[{"count":9,"item":"create:crushed_raw_iron"},{"chance":0.75,"count":9,"item":"create:experience_nugget"}]}
@@ -479,7 +479,7 @@ minecraft:blasting {
 
 	- minecraft:iron_ingot_from_blasting_raw_iron
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"iron_ingot","ingredient":{"item":"minecraft:raw_iron"},"result":"minecraft:iron_ingot"}
-		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:raw_iron_ores"},"result":"minecraft:iron_ingot"}
+		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:iron_raw_materials"},"result":"minecraft:iron_ingot"}
 
 	- minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.2,"group":"lapis_lazuli","ingredient":{"item":"minecraft:deepslate_lapis_ore"},"result":"minecraft:lapis_lazuli"}
@@ -1910,7 +1910,7 @@ minecraft:crafting_shaped {
 
 	- minecraft:raw_iron_block
 		    Original: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"minecraft:raw_iron"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_iron_block"},"show_notification":true}
-		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:raw_iron_ores"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_iron_block"},"show_notification":true}
+		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:iron_raw_materials"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_iron_block"},"show_notification":true}
 
 	- minecraft:soul_lantern
 		    Original: {"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:soul_torch"},"X":{"item":"minecraft:iron_nugget"}},"pattern":["XXX","X#X","XXX"],"result":{"item":"minecraft:soul_lantern"},"show_notification":true}
@@ -3288,7 +3288,7 @@ minecraft:smelting {
 
 	- minecraft:iron_ingot_from_smelting_raw_iron
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"iron_ingot","ingredient":{"item":"minecraft:raw_iron"},"result":"minecraft:iron_ingot"}
-		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:raw_iron_ores"},"result":"minecraft:iron_ingot"}
+		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:iron_raw_materials"},"result":"minecraft:iron_ingot"}
 
 	- minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.2,"group":"lapis_lazuli","ingredient":{"item":"minecraft:deepslate_lapis_ore"},"result":"minecraft:lapis_lazuli"}
