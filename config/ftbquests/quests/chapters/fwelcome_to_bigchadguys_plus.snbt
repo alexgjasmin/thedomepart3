@@ -109,15 +109,13 @@
 		}
 		{
 			description: [
-				"&bEMI&r is a recipe browser that enables you to view every single item and its recipes."
+				"&bEMI&r is a recipe browser that lets you view all items and their recipes."
 				""
-				"A key mechanic &bEMI&r gives you use is the ability to search and filter by specific mods. For example, in the search bar, typing \"&b@Automobility&r\" will allow you to see every item related to Automobility: its frames, wheels, attachments, etc. This is an incredibly useful tool when exploring mods."
+				"One of the key features &bEMI&r offers is the ability to search and filter by specific mods. For instance, typing \"&b@Automobility&r\" into the search bar will display all items related to Automobility, such as frames, wheels, attachments, and more. This tool is especially helpful when navigating through mods."
 				""
-				"If you're unsure which mod an item comes from, pressing '&bF3 + H&r' allows you to see each item's identifiers!"
-				""
-				"Play around with it, customize it however you would like, and if you have any questions, ask us in the &dDiscord&r!"
+				"If you're unsure which mod an item belongs to, pressing '&bF3 + H&r' will show you the item's identifiers!"
 			]
-			icon: "minecraft:paper"
+			icon: "minecraft:chest"
 			id: "2842A1F4485DA210"
 			optional: true
 			subtitle: "Click to learn more!"
@@ -127,49 +125,8 @@
 				type: "checkmark"
 			}]
 			title: "EMI"
-			x: -1.0d
+			x: 0.0d
 			y: -1.5d
-		}
-		{
-			description: [
-				"Whether you have a question, need to report a bug, or want to share your builds, the &6BigChadGuys&r &dDiscord&r is the place to do it!"
-				""
-				"Join us at: &ddiscord.gg/bigchadguys&r"
-			]
-			icon: "ftbquests:book"
-			id: "7F347C5E52359E01"
-			optional: true
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "60ECBF11019AFA6B"
-				title: "Need Help?"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			description: [
-				"&bHost with &lBisectHosting&r (Paid)&r"
-				"Premium and budget hosting with 24/7 support. Use code &6BigChadGuys&r for 25% off your first month."
-				""
-				"&cHost with &lOracle Cloud&r (Free)&r"
-				"Consider Oracle Cloud as a free and dedicated alternative. However, please note that Oracle has recently been randomly closing accounts, so use with caution."
-				""
-				"&2Host with &le4mc&r (Free)&r"
-				"Automatically included in BCG modpacks. Access multiplayer by entering a singleplayer world, opening your game menu, and selecting \"&bStart Co-op&r\"."
-			]
-			icon: "minecraft:villager_spawn_egg"
-			id: "384105BFD8CAD66D"
-			optional: true
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "0786E128134803D9"
-				title: "Multiplayer Options"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: -2.5d
 		}
 		{
 			description: [
@@ -213,43 +170,13 @@
 		}
 		{
 			description: [
-				"To My Discord Staff: &6Kurisu&r, &dBlacknewt&r, &dHarold&r, &dHolland&r, &dSinnamoth&r, and &cLion&r,"
+				"THE CONTENT OF THIS PACK IS MADE BY &6&lJFLEC&r&r, for right now anyways."
 				""
-				"Thank you so much for everything you do! Your assistance in maintaining a helpful and safe community makes my life much easier. I could not do it without you."
+				"&cbndf88&r: Musician guy"
 				""
-				"To &eMod Developers&r:"
-				""
-				"A big thank you to the backbone of the modding community, your creations help expand on the greatest game ever made."
-				""
-				"To &9Craft Down Under&r:"
-				""
-				"Thank you for being with me since day one! Sauramel and Olivia, our partnership has meant the most, and I'm so thankful you two reached out when you did. It was a wonderful introduction to the modded Minecraft community!"
-				""
-				"To My &bLuna Pixel&r Buddies:"
-				""
-				"Your guidance and kindness have been invaluable during my journey as a modpack developer. I am deeply grateful for our friendship."
-				""
-				"To &aV4lk&r:"
-				""
-				"Thank you for your contributions to BCG's art! Your work has played a significant role in bringing joy to thousands of people!"
-				""
-				"To &5KaptainWutax&r:"
-				""
-				"Your expertise in mod development has taken BCG to a whole new level, I sincerely thank you for everything you've helped build."
-				""
-				"To &9Ardy&r, &9Baguette&r, and &9Tom&r:"
-				""
-				"Thank you for the assistance with quests! You know I absolutely love doing them LOL."
-				""
-				"To &cbndf88&r:"
-				""
-				"Thanks for the music, sucker."
-				""
-				"To &2George Cooper&r: A devoted husband to Mary, a loving father to Sheldon, George Jr., and Missy, and a passionate football coach who inspired many. He was known for his love of brisket and his unwavering support for his family. His legacy of love, dedication, and strength will forever be remembered."
-				""
-				"And finally, thank &6YOU&r for playing! Your support means the world, and I'm so blessed to be in a position where I can do this full-time. Seriously, I suck at thank-yous, but genuinely, from the bottom of my heart, thank you."
+				"&6&ljflec&r&r: Creator guy"
 			]
-			icon: "bcg_smp:joe_coin"
+			icon: "candlelight:painting"
 			id: "02AF54D55FF5C84F"
 			optional: true
 			subtitle: "Click to see everyone involved!"
@@ -262,11 +189,7 @@
 			y: 2.5d
 		}
 		{
-			description: [
-				"The &bDiet Journal&r is a helpful book that tracks every food you've eaten. You can craft it by combining a &bBook and Quill&r with an &bApple&r, or by accepting this quest! That was easy."
-				""
-				"You might be wondering, why is it important to know what foods I've eaten? Well, each unique food you eat increases your &cMax Health&r! It may take a bit of munching before you start feeling different, but rest assured, you'll grow stronger!"
-			]
+			description: ["&bDiet Journal&r these nuts"]
 			icon: {
 				Count: 1
 				id: "minecraft:written_book"
@@ -292,15 +215,15 @@
 		}
 		{
 			description: [
-				"&6BigChadGuys Plus&r lets you claim chunks! This means you can keep your base safe from other players, Creeper explosions, and even keep chunks loaded."
+				"&6The Dome&r allows you to claim chunks, helping you protect your base from other players, Creeper explosions, and even keeping chunks loaded."
 				""
-				"To claim a chunk, open your inventory and click on &bFTB Chunks: Claim Manager&r in the top-left corner. Then just left-click the chunks you want to claim. The number of claims you get depends on the server."
+				"To claim a chunk, open your inventory and select &bFTB Chunks: Claim Manager&r from the top-left corner. Then, left-click on the chunks you want to claim. The number of available claims will vary depending on the server."
 				""
-				"To force-load a chunk, shift-click it after claiming. You'll see a visual change showing that the chunk is now force-loaded."
+				"To force-load a claimed chunk, simply shift-click it. You'll notice a visual indicator confirming the chunk is now force-loaded."
 				""
-				"And to unclaim chunks, just right-click!"
+				"If you want to unclaim a chunk, just right-click it!"
 			]
-			icon: "minecraft:pillager_spawn_egg"
+			icon: "minecraft:paper"
 			id: "06080C64F7F740C7"
 			optional: true
 			subtitle: "Click to learn more!"
@@ -309,7 +232,7 @@
 				title: "Multiplayer Tips (Claims)"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -2.5d
 		}
 	]

@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "4B01C48E311D52E5"
+	id: "1F4B1E2BAB4C0CA7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&oYou were gonna blow up my house.&r"
+			"&4Now I'm gonna blow up your prostate.&r"
+		]
+		id: "3C7C2C4883690EBF"
+		tasks: [
+			{
+				count: 1000L
+				id: "5064BE551BFE3DEC"
+				item: "a_man_with_plushies:steve_plush"
+				title: "I. Am. Steve."
+				type: "item"
+			}
+			{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_spawn_egg"
+				id: "4EA067A6090B431F"
+				title: "I'm gonna blow up your prostate."
+				type: "kill"
+				value: 500L
+			}
+		]
+		title: "You were gonna blow up my house."
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "01"
+}

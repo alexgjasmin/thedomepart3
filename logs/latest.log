@@ -1614,3 +1614,546 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 [19:52:08] [Render thread/INFO]: Reloading YIGD grave area overrides (server)
 [19:52:08] [Render thread/INFO]: Grave area overrides successfully reloaded (server)
 [19:52:09] [Render thread/INFO]: Applied 7 data villager trades
+[19:52:57] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: create_flat_world_screen
+[19:52:58] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: preset_flat_world_screen
+[19:53:25] [Render thread/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[19:53:25] [Render thread/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[19:53:25] [Render thread/WARN]: Ignored non-lowercase namespace: .DS_Store in C:\Users\Alex\curseforge\minecraft\Instances\thedomepart3\resourcepacks\MoreMons - BCG Modified.zip
+[19:53:25] [Render thread/WARN]: Ignored non-lowercase namespace: .DS_Store in C:\Users\Alex\curseforge\minecraft\Instances\thedomepart3\resourcepacks\MoreMons - BCG Modified.zip
+[19:53:27] [Render thread/INFO]: Generated runtime SERVER_DATA for pack Everycomp Generated Pack (everycomp) in: 2426 ms
+[19:53:27] [Render thread/INFO]: Generated runtime SERVER_DATA for pack Snowyspirit Generated Pack (snowyspirit) in: 0 ms
+[19:53:27] [Render thread/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 0 ms
+[19:53:28] [Render thread/INFO]: Generated runtime SERVER_DATA for pack Suppsquared Generated Pack (suppsquared) in: 0 ms
+[19:53:28] [Render thread/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[19:53:28] [Thread-52/INFO]: [EMI] Clearing data
+[19:53:28] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
+[19:53:28] [Render thread/INFO]: emissive suffixes loaded: {_e}.
+[19:53:28] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:53:28] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:53:28] [Render thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19:53:28] [Render thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19:53:28] [Render thread/INFO]: Applied 8353 biome modifications to 198 of 198 new biomes in 57.33 ms
+[19:53:28] [Server thread/INFO]: Loading server config for barteringstation
+[19:53:28] [Thread-19/INFO]: Reloading server config for barteringstation
+[19:53:28] [Thread-19/INFO]: Reloading server config for barteringstation
+[19:53:28] [Server thread/INFO]: Loading server config for easyanvils
+[19:53:28] [Thread-19/INFO]: Reloading server config for easyanvils
+[19:53:28] [Thread-19/INFO]: Reloading server config for easyanvils
+[19:53:28] [Thread-19/INFO]: Reloading server config for easyanvils
+[19:53:28] [Server thread/INFO]: Loading server config for easymagic
+[19:53:28] [Thread-19/INFO]: Reloading server config for easymagic
+[19:53:28] [Server thread/INFO]: Loading server config for illagerinvasion
+[19:53:28] [Thread-19/INFO]: Reloading server config for illagerinvasion
+[19:53:28] [Server thread/INFO]: Loading server config for leavesbegone
+[19:53:28] [Thread-19/INFO]: Reloading server config for leavesbegone
+[19:53:28] [Thread-19/INFO]: Reloading server config for leavesbegone
+[19:53:28] [Server thread/INFO]: Loading server config for magnumtorch
+[19:53:28] [Thread-19/INFO]: Reloading server config for magnumtorch
+[19:53:28] [Server thread/INFO]: Loading server config for permanentsponges
+[19:53:28] [Thread-19/INFO]: Reloading server config for permanentsponges
+[19:53:28] [Server thread/INFO]: Loading server config for tradingpost
+[19:53:28] [Thread-19/INFO]: Reloading server config for tradingpost
+[19:53:28] [Server thread/INFO]: Loading server configs...
+[19:53:28] [Server thread/INFO]: Reading config.
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[19:53:28] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[19:53:28] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[19:53:28] [Server thread/INFO]: Generating keypair
+[19:53:28] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: level_loading_screen
+[19:53:28] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (39cc80f1)
+        biomes     = 147
+        namespaces = minecraft(53), terralith(94)
+[19:53:28] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    class_2169 (5865fb5d)
+        biomes     = 21
+        namespaces = minecraft(5), betterend(16)
+[19:53:28] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    class_4766 (29871ee5)
+        biomes     = 13
+        namespaces = minecraft(5), incendium(8)
+[19:53:28] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecraft:overworld: 
+     net.minecraft.class_3754@7f8cf4ba 
+     class_4766 (39cc80f1)
+         biomes     = 147
+         namespaces = minecraft(53), terralith(94)
+ - minecraft:the_end: 
+     net.minecraft.class_3754@1a2e7e99 
+     class_2169 (5865fb5d)
+         biomes     = 21
+         namespaces = minecraft(5), betterend(16)
+ - minecraft:the_nether: 
+     net.minecraft.class_3754@6355a361 
+     class_4766 (29871ee5)
+         biomes     = 13
+         namespaces = minecraft(5), incendium(8)
+[19:53:28] [Server thread/INFO]: [bclib] Merged 16 additional Surface Rules for 
+class_2169 (5865fb5d)
+    biomes     = 21
+    namespaces = minecraft(5), betterend(16) => 17
+[19:53:29] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[19:53:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:53:31] [Render thread/INFO]: Preparing spawn area: 0%
+[19:53:32] [Render thread/INFO]: Preparing spawn area: 0%
+[19:53:32] [Render thread/INFO]: Preparing spawn area: 0%
+[19:53:33] [Render thread/INFO]: Preparing spawn area: 1%
+[19:53:33] [Render thread/INFO]: Preparing spawn area: 4%
+[19:53:34] [Render thread/INFO]: Preparing spawn area: 5%
+[19:53:34] [Render thread/INFO]: Preparing spawn area: 9%
+[19:53:35] [Render thread/INFO]: Preparing spawn area: 10%
+[19:53:35] [Render thread/INFO]: Preparing spawn area: 15%
+[19:53:36] [Render thread/INFO]: Preparing spawn area: 17%
+[19:53:36] [Render thread/INFO]: Preparing spawn area: 19%
+[19:53:37] [Render thread/INFO]: Preparing spawn area: 22%
+[19:53:37] [Render thread/INFO]: Preparing spawn area: 25%
+[19:53:38] [Render thread/INFO]: Preparing spawn area: 31%
+[19:53:38] [Render thread/INFO]: Preparing spawn area: 34%
+[19:53:39] [Render thread/INFO]: Preparing spawn area: 38%
+[19:53:39] [Render thread/INFO]: Preparing spawn area: 43%
+[19:53:40] [Render thread/INFO]: Preparing spawn area: 47%
+[19:53:40] [Render thread/INFO]: Preparing spawn area: 51%
+[19:53:41] [Render thread/INFO]: Preparing spawn area: 54%
+[19:53:41] [Render thread/INFO]: Preparing spawn area: 58%
+[19:53:42] [Render thread/INFO]: Preparing spawn area: 62%
+[19:53:42] [Render thread/INFO]: Preparing spawn area: 67%
+[19:53:43] [Render thread/INFO]: Preparing spawn area: 70%
+[19:53:43] [Render thread/INFO]: Preparing spawn area: 74%
+[19:53:44] [Render thread/INFO]: Preparing spawn area: 81%
+[19:53:44] [Render thread/INFO]: Preparing spawn area: 84%
+[19:53:45] [Render thread/INFO]: Preparing spawn area: 89%
+[19:53:45] [Render thread/INFO]: Preparing spawn area: 93%
+[19:53:45] [Server thread/ERROR]: Couldn't load the given entries within tag alloy_forgery:blacklisted_blasting_recipes: minecraft:coal_from_blasting_deepslate_coal_ore (from fabric)
+[19:53:45] [Render thread/INFO]: Time elapsed: 14456 ms
+[19:53:45] [Server thread/INFO]: Loading quests from C:\Users\Alex\curseforge\minecraft\Instances\thedomepart3\config\ftbquests\quests
+[19:53:46] [Server thread/INFO]: Loaded 16 chapter groups, 42 chapters, 1687 quests, 12 reward tables
+[19:53:46] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 393218 bytes (in 40 string chunks with the size of 10000)
+[19:53:46] [Server thread/INFO]: Server initialized...
+[19:53:46] [Server thread/INFO]: Loading CobbledexCoopDiscovery at "C:\Users\Alex\curseforge\minecraft\Instances\thedomepart3\saves\Dev Region\.\cobbledex-coop.json"...
+[19:53:46] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
+[19:53:46] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 56753
+[19:53:46] [Server thread/INFO]: Reloaded configs for spiceoffabric (universal/world)
+[19:53:46] [Server thread/INFO]: Auto report config loaded for mod: "copycats"
+[19:53:46] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[19:53:47] [Server thread/INFO]: Changing simulation distance to 5, from 0
+[19:53:47] [Netty Local Client IO #0/WARN]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientboundCustomPayloadPacketMixin from mod connectivity->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer-common.mixins.json:ClientboundCustomPayloadPacketMixin from mod packetfixer->@ModifyConstant::newSize(I)I with priority 9999
+[19:53:47] [Netty Local Client IO #0/WARN]: @ModifyConstant conflict. Skipping xlpackets.mixins.json:ClientboundCustomPayloadPacketMixin from mod thiccpackets->@ModifyConstant::xlPackets(I)I with priority 1000, already redirected by packetfixer-common.mixins.json:ClientboundCustomPayloadPacketMixin from mod packetfixer->@ModifyConstant::newSize(I)I with priority 9999
+[19:53:47] [Netty Local Client IO #0/WARN]: @ModifyConstant conflict. Skipping xlpackets.mixins.json:ClientboundCustomPayloadPacketMixin from mod thiccpackets->@ModifyConstant::xlPackets(I)I with priority 1000, already redirected by packetfixer-common.mixins.json:ClientboundCustomPayloadPacketMixin from mod packetfixer->@ModifyConstant::newSize(I)I with priority 9999
+[19:53:47] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[19:53:47] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[19:53:47] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[19:53:48] [Server thread/INFO]: [Handshake] Sending channel query
+[19:53:48] [Netty Local Client IO #0/INFO]: [Handshake] Sending client channels
+[19:53:48] [Netty Server IO #1/INFO]: [Handshake] Receiving client channels
+[19:53:48] [Netty Server IO #1/INFO]: [Handshake] Handshake completed successfully
+[19:53:48] [Netty Local Client IO #0/INFO]: Received server config
+[19:53:48] [Server thread/INFO]: MonkeyMC[local:E:c0f9d5b5] logged in with entity id 154 at (0.5, 73.0, 6.5)
+[19:53:48] [Server thread/INFO]: Sending server config values to client
+[19:53:48] [Netty Local Client IO #0/INFO]: Applying server overrides
+[19:53:48] [Netty Local Client IO #0/INFO]: Responding with client values
+[19:53:48] [Netty Server IO #1/INFO]: Receiving client config
+[19:53:48] [Netty Local Client IO #0/INFO]: Decoded Weapon Attribute registry in 40 string chunks
+[19:53:48] [Server thread/INFO]: Added 0 entries in MonkeyMC's Cobbledex
+[19:53:48] [Server thread/INFO]: Syncing config to MonkeyMC (2241d9a1-3bba-44af-9102-e9d372a4a3a8)
+[19:53:48] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[19:53:48] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[19:53:48] [Server thread/INFO]: Loading config from file...
+[19:53:48] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[19:53:48] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[19:53:48] [Server thread/INFO]: MonkeyMC joined the game
+[19:53:48] [Netty Local Client IO #0/ERROR]: Failed to handle packet bigchadguys.dailyshop.net.DailyShopUpdateS2CPacket@756b50f5, engine null is unknown
+[19:53:49] [Render thread/INFO]: Started 10 worker threads
+[19:53:49] [Netty Local Client IO #0/INFO]: Read 279168 bytes, 5471 objects
+[19:53:49] [Server thread/INFO]: PLAYER_JOIN
+[19:53:49] [Server thread/INFO]: add_player wand
+[19:53:49] [Server thread/INFO]: config sent
+[19:53:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2582ms or 51 ticks behind
+[19:53:49] [Render thread/INFO]: Started 10 worker threads
+[19:53:49] [Server thread/INFO]: MonkeyMC has made the advancement [Ube's Delight]
+[19:53:49] [Render thread/INFO]: [Inventory Profiles Next] Loaded 57 external GUI hints
+[19:53:49] [Render thread/INFO]: [Inventory Profiles Next] Loaded 797 build-in GUI hints
+[19:53:49] [Render thread/INFO]: [Inventory Profiles Next] Effective GUI hints after merge: 853
+[19:53:50] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: receiving_level_screen
+[19:53:50] [Render thread/INFO]: [bclib] Sending hello to server.
+[19:53:50] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[19:53:50] [Server thread/INFO]: [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[19:53:50] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[19:53:50] [Netty Server IO #1/INFO]: Channel update: MonkeyMC -> default
+[19:53:50] [Server thread/INFO]: [voicechat] Received secret request of MonkeyMC (18)
+[19:53:50] [Server thread/INFO]: [voicechat] Sent secret to MonkeyMC
+[19:53:50] [Render thread/INFO]: [EMI] Joining server, EMI waiting for data from server...
+[19:53:50] [Netty Server IO #1/INFO]: Priority overwritten for player MonkeyMC. Claiming: GRAVE / Robbing: INVENTORY
+[19:53:50] [Render thread/INFO]: REGISTERING FABRIC CLIENT COMMANDS
+[19:53:50] [Render thread/INFO]: Requested config sync for spiceoffabric
+[19:53:50] [Render thread/INFO]: Synced amendments-common.json configs
+[19:53:50] [Render thread/INFO]: Received config from the server: 
+[19:53:50] [Render thread/WARN]: Failed to get file path of mod fastpaintings: /
+[19:53:50] [Render thread/WARN]: Failed to get file path of mod moonlight: /
+[19:53:50] [Render thread/WARN]: Failed to get file path of mod amendments: /
+[19:53:50] [Render thread/WARN]: Failed to get file path of mod supplementaries: /
+[19:53:50] [Render thread/WARN]: Failed to get file path of mod everycomp: /
+[19:53:50] [Render thread/WARN]: Failed to get file path of mod snowyspirit: /
+[19:53:50] [Render thread/WARN]: Failed to get file path of mod suppsquared: /
+[19:53:50] [Render thread/INFO]: Synced supplementaries-common.json configs
+[19:53:50] [Render thread/INFO]: Syncing config from server to client...
+[19:53:50] [Render thread/INFO]: [Fabric Seasons] Received dedicated server crops.
+[19:53:50] [Render thread/INFO]: Synced Flute Songs
+[19:53:50] [Render thread/INFO]: Synced Captured Mobs settings
+[19:53:50] [Render thread/INFO]: Synced Globe data
+[19:53:50] [Render thread/INFO]: Synced Hourglass data
+[19:53:50] [Render thread/INFO]: [EMI] Tags synchronized, waiting for recipes to reload EMI...
+[19:53:50] [Render thread/WARN]: Unknown recipe category: expandeddelight:juicing/expandeddelight:expandeddelight/juicing/glow_berry_juice
+[19:53:50] [Render thread/WARN]: Unknown recipe category: brewery:drying/brewery:dried_corn
+[19:53:50] [Render thread/WARN]: Unknown recipe category: expandeddelight:juicing/expandeddelight:expandeddelight/juicing/apple_juice
+[19:53:50] [Render thread/WARN]: Unknown recipe category: ae2:charger/ae2:charger/charged_certus_quartz_crystal
+[19:53:50] [Render thread/WARN]: Unknown recipe category: expandeddelight:juicing/expandeddelight:expandeddelight/juicing/melon_juice
+[19:53:51] [Render thread/WARN]: Unknown recipe category: brewery:drying/brewery:dried_barley
+[19:53:51] [Render thread/WARN]: Unknown recipe category: expandeddelight:juicing/expandeddelight:expandeddelight/juicing/sweet_berry_juice
+[19:53:51] [Render thread/WARN]: Unknown recipe category: ae2:charger/ae2:charger/guide
+[19:53:51] [Render thread/WARN]: Unknown recipe category: brewery:drying/brewery:dried_wheat
+[19:53:51] [Render thread/WARN]: Unknown recipe category: ae2:charger/ae2:charger/meteorite_compass
+[19:53:52] [Render thread/INFO]: [EMI] Recipes synchronized, reloading EMI
+[19:53:52] [Render thread/INFO]: [EMI] Starting Reload
+[19:53:52] [Thread-62/INFO]: [EMI] Starting EMI reload...
+[19:53:52] [Thread-62/INFO]: [EMI] Clearing data
+[19:53:52] [Render thread/INFO]: Loading all registered leaf blocks.
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from emi
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from emi in 19ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from alloy_forgery
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from alloy_forgery in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from almostunified
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from almostunified in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from bclib
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from bclib in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from betterend
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from betterend in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from create
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from create in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from createaddition
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from createaddition in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from emi_letsdo_compat
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from emi_letsdo_compat in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from farmersdelight
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from farmersdelight in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from item_obliterator
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from item_obliterator in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from mythicmetals
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from mythicmetals in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from owo
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from owo in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from polymer-core
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from polymer-core in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from sophisticatedbackpacks
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from sophisticatedbackpacks in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from sophisticatedcore
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from sophisticatedcore in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from sophisticatedstorage
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from sophisticatedstorage in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from supplementaries
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from supplementaries in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from toms_storage
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from toms_storage in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from travelersbackpack
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from travelersbackpack in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from trinkets
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from trinkets in 0ms
+[19:53:52] [Thread-62/INFO]: [EMI] Initializing plugin from ubesdelight
+[19:53:52] [Thread-62/INFO]: [EMI] Initialized plugin from ubesdelight in 0ms
+[19:53:53] [Thread-62/INFO]: [EMI] Processing tags
+[19:53:53] [Thread-62/INFO]: [EMI] Constructing index
+[19:53:53] [Thread-62/INFO]: [EMI] Reloading item groups on client thread...
+[19:53:53] [Render thread/INFO]: Loading FTB Chunks client data from world d74170fc-1980-49d6-a85a-2f77139e0363
+[19:53:53] [Render thread/INFO]: received server config settings
+[19:53:53] [Render thread/INFO]: Loaded 43 advancements
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 177.2 ?s
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 170.5 ?s
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 152.8 ?s
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 444.2 ?s
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 537.4 ?s
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 422.5 ?s
+[19:53:53] [Render thread/WARN]: Recipe cobblemon:gold_nugget_from_blasting_coin (of type minecraft:smelting) not found
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 33.60 ?s
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 24.30 ?s
+[19:53:53] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 19.80 ?s
+[19:53:53] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591
+[19:53:53] [Render thread/INFO]: [CHAT] MonkeyMC has made the advancement [Ube's Delight]
+[19:53:53] [Render thread/INFO]: Loaded 153 advancements
+[19:53:54] [Thread-62/INFO]: [EMI] Reloading item groups on client thread took 1441ms
+[19:53:54] [Render thread/INFO]: [voicechat] Received secret
+[19:53:54] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '127.0.0.1:56753'
+[19:53:54] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:53:54] [Render thread/INFO]: [CHAT] [Simple Voice Chat] Press H to set up
+[19:53:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2241d9a1-3bba-44af-9102-e9d372a4a3a8
+[19:53:54] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[19:53:54] [Thread-62/INFO]: [EMI] Loading plugin from emi
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10005":
+[19:53:54] [Render thread/WARN]: - The block bakery:oat_crop has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10005":
+[19:53:54] [Render thread/WARN]: - The block betterend:glowing_pillar_roots has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10009":
+[19:53:54] [Render thread/WARN]: - The block betterend:cave_pumpkin has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10021":
+[19:53:54] [Render thread/WARN]: - The block vinery:savanna_grape_bush_red has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10021":
+[19:53:54] [Render thread/WARN]: - The block vinery:savanna_grape_bush_white has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10021":
+[19:53:54] [Render thread/WARN]: - The block bakery:oat_crop has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10021":
+[19:53:54] [Render thread/WARN]: - The block betterend:glowing_pillar_leaves has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10021":
+[19:53:54] [Render thread/WARN]: - The block betterend:lumecorn has no property with the name half, ignoring!
+[19:53:54] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10021":
+[19:53:54] [Render thread/WARN]: - The block betterend:lanceleaf has no property with the name half, ignoring!
+[19:53:54] [Render thread/INFO]: Stopping worker threads
+[19:53:54] [Render thread/INFO]: Started 10 worker threads
+[19:53:55] [Render thread/WARN]: Shader clouds could not find uniform named ModelViewMat in the specified shader program.
+[19:53:55] [Render thread/WARN]: Shader clouds could not find uniform named ProjMat in the specified shader program.
+[19:53:55] [Render thread/WARN]: Shader clouds could not find uniform named ColorModulator in the specified shader program.
+[19:53:55] [Render thread/WARN]: Shader clouds could not find uniform named FogStart in the specified shader program.
+[19:53:55] [Render thread/WARN]: Shader clouds could not find uniform named FogEnd in the specified shader program.
+[19:53:55] [Render thread/WARN]: Shader clouds could not find uniform named FogColor in the specified shader program.
+[19:53:55] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[19:53:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2241d9a1-3bba-44af-9102-e9d372a4a3a8
+[19:53:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MonkeyMC (2241d9a1-3bba-44af-9102-e9d372a4a3a8) successfully connected to voice chat
+[19:53:55] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[19:53:55] [Render thread/INFO]: Stopping worker threads
+[19:53:55] [Render thread/INFO]: Started 10 worker threads
+[19:53:56] [Render thread/INFO]: [EMI] Starting Reload
+[19:53:56] [Render thread/WARN]: Time from main menu to in-game was 28.093847 seconds
+[19:53:56] [Render thread/WARN]: Total time to load game and open world was 107.02385 seconds
+[19:53:57] [Render thread/INFO]: [EMI] Starting Reload
+[19:53:57] [Render thread/INFO]: Loaded 161 advancements
+[19:53:58] [Thread-62/INFO]: [EMI] Reloaded plugin from emi in 3950ms
+[19:53:58] [Thread-62/INFO]: [EMI] Starting EMI reload...
+[19:53:58] [Thread-62/INFO]: [EMI] Clearing data
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from emi
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from emi in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from alloy_forgery
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from alloy_forgery in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from almostunified
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from almostunified in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from bclib
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from bclib in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from betterend
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from betterend in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from create
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from create in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from createaddition
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from createaddition in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from emi_letsdo_compat
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from emi_letsdo_compat in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from farmersdelight
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from farmersdelight in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from item_obliterator
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from item_obliterator in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from mythicmetals
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from mythicmetals in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from owo
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from owo in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from polymer-core
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from polymer-core in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from sophisticatedbackpacks
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from sophisticatedbackpacks in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from sophisticatedcore
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from sophisticatedcore in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from sophisticatedstorage
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from sophisticatedstorage in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from supplementaries
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from supplementaries in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from toms_storage
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from toms_storage in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from travelersbackpack
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from travelersbackpack in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from trinkets
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from trinkets in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Initializing plugin from ubesdelight
+[19:53:58] [Thread-62/INFO]: [EMI] Initialized plugin from ubesdelight in 0ms
+[19:53:58] [Thread-62/INFO]: [EMI] Processing tags
+[19:53:58] [Thread-62/INFO]: [EMI] Constructing index
+[19:53:58] [Thread-62/INFO]: [EMI] Reloading item groups on client thread...
+[19:54:01] [Thread-62/INFO]: [EMI] Reloading item groups on client thread took 3108ms
+[19:54:01] [Thread-62/INFO]: [EMI] Loading plugin from emi
+[19:54:04] [Thread-62/INFO]: [EMI] Reloaded plugin from emi in 2922ms
+[19:54:04] [Thread-62/INFO]: [EMI] Loading plugin from alloy_forgery
+[19:54:04] [Thread-62/INFO]: [EMI] Reloaded plugin from alloy_forgery in 11ms
+[19:54:04] [Thread-62/INFO]: [EMI] Loading plugin from almostunified
+[19:54:04] [Thread-62/INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:copper_nuggets' -> [mythicmetals:copper_nugget]
+[19:54:04] [Thread-62/INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:zinc_plates' -> [createdeco:zinc_sheet]
+[19:54:04] [Thread-62/INFO]: [AutoHiding] Hiding reference tag '#createdeco:internal/plates/zinc_plates' of owner tag '#c:zinc_plates' -> [createdeco:zinc_sheet]
+[19:54:04] [Thread-62/INFO]: [EMI] Reloaded plugin from almostunified in 12ms
+[19:54:04] [Thread-62/INFO]: [EMI] Loading plugin from bclib
+[19:54:04] [Thread-62/INFO]: [EMI] Reloaded plugin from bclib in 99ms
+[19:54:04] [Thread-62/INFO]: [EMI] Loading plugin from betterend
+[19:54:04] [Thread-62/INFO]: [EMI] Reloaded plugin from betterend in 9ms
+[19:54:04] [Thread-62/INFO]: [EMI] Loading plugin from create
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from create in 423ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from createaddition
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from createaddition in 8ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from emi_letsdo_compat
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from emi_letsdo_compat in 56ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from farmersdelight
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from farmersdelight in 508ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from item_obliterator
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from item_obliterator in 0ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from mythicmetals
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from mythicmetals in 13ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from owo
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from owo in 1ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from polymer-core
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from polymer-core in 16ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from sophisticatedbackpacks
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from sophisticatedbackpacks in 48ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from sophisticatedcore
+[19:54:05] [Thread-62/INFO]: [EMI] Reloaded plugin from sophisticatedcore in 5ms
+[19:54:05] [Thread-62/INFO]: [EMI] Loading plugin from sophisticatedstorage
+[19:54:06] [Thread-62/INFO]: [EMI] Reloaded plugin from sophisticatedstorage in 121ms
+[19:54:06] [Thread-62/INFO]: [EMI] Loading plugin from supplementaries
+[19:54:06] [Thread-62/INFO]: [EMI] Reloaded plugin from supplementaries in 32ms
+[19:54:06] [Thread-62/INFO]: [EMI] Loading plugin from toms_storage
+[19:54:06] [Thread-62/INFO]: [EMI] Reloaded plugin from toms_storage in 10ms
+[19:54:06] [Thread-62/INFO]: [EMI] Loading plugin from travelersbackpack
+[19:54:06] [Thread-62/INFO]: [EMI] Reloaded plugin from travelersbackpack in 3ms
+[19:54:06] [Thread-62/INFO]: [EMI] Loading plugin from trinkets
+[19:54:06] [Thread-62/INFO]: [EMI] Reloaded plugin from trinkets in 1ms
+[19:54:06] [Thread-62/INFO]: [EMI] Loading plugin from ubesdelight
+[19:54:06] [Thread-62/INFO]: [EMI] Reloaded plugin from ubesdelight in 10ms
+[19:54:06] [Thread-62/INFO]: [EMI] Baking index
+[19:54:06] [Thread-62/INFO]: [EMI] Registering late recipes
+[19:54:06] [Thread-62/INFO]: [EMI] Baking recipes
+[19:54:08] [Thread-62/INFO]: [EMI] Baked 45271 recipes in 2146ms
+[19:54:08] [Thread-62/INFO]: [EMI] Baking search
+[19:54:10] [Thread-66/INFO]: [EMI] Baked recipes after reload in 1978ms
+[19:54:12] [Thread-62/INFO]: [EMI] Finishing up
+[19:54:12] [Thread-62/INFO]: [EMI] Reloaded EMI in 13759ms
+[19:54:22] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: chat_screen
+[19:54:26] [Server thread/INFO]: [MonkeyMC: Gamerule doDaylightCycle is now set to: false]
+[19:54:26] [Render thread/INFO]: [CHAT] Gamerule doDaylightCycle is now set to: false
+[19:54:31] [Server thread/INFO]: [MonkeyMC: Gamerule doWeatherCycle is now set to: false]
+[19:54:31] [Render thread/INFO]: [CHAT] Gamerule doWeatherCycle is now set to: false
+[19:54:32] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: pause_screen
+[19:54:32] [Server thread/INFO]: Saving and pausing game...
+[19:54:32] [Server thread/INFO]: saving Alternate Current config
+[19:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[19:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[19:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[19:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[19:54:33] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: inventory_screen
+[19:54:35] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: creative_mode_inventory_screen
+[19:54:35] [Render thread/INFO]: [EMI] Discovered Sodium
+[19:54:35] [Render thread/WARN]: Class dev.emi.emi.screen.StackBatcher$UnlitFacade$Consumer does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[19:54:41] [Server thread/INFO]: [MonkeyMC: Editing Mode for 'MonkeyMC' Enabled]
+[19:54:41] [Render thread/INFO]: [CHAT] Editing Mode for 'MonkeyMC' Enabled
+[19:54:43] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: dev.ftb.mods.ftblibrary.ui.ScreenWrapper
+[19:55:12] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: confirm_screen
+[19:55:12] [Server thread/INFO]: Saving and pausing game...
+[19:55:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[19:55:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[19:55:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[19:55:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[19:58:26] [Server thread/INFO]: Saving and pausing game...
+[19:58:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[19:58:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[19:58:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[19:58:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[19:58:49] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 18062?s!
+[19:58:58] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 9743?s!
+[19:59:00] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 47318?s!
+[19:59:23] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 6890?s!
+[19:59:25] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 40075?s!
+[20:02:09] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 4990?s!
+[20:02:12] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 35617?s!
+[20:02:12] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 34643?s!
+[20:02:14] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 35666?s!
+[20:02:15] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 4727?s!
+[20:02:17] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 36588?s!
+[20:05:16] [Server thread/INFO]: Saving and pausing game...
+[20:05:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[20:05:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[20:05:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[20:05:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[20:06:34] [Render thread/INFO]: Loaded 258 advancements
+[20:06:49] [Render thread/INFO]: [STDOUT]: biomecreate: incendium:withered_forest
+[20:06:49] [Render thread/INFO]: [STDOUT]: biomecreate: incendium:withered_forest
+[20:07:29] [Server thread/INFO]: MonkeyMC has completed the challenge [Genuine!]
+[20:07:29] [Render thread/INFO]: [CHAT] MonkeyMC has completed the challenge [Genuine!]
+[20:07:30] [Render thread/INFO]: Loaded 262 advancements
+[20:08:41] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 4764?s!
+[20:08:44] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 37301?s!
+[20:08:45] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 41991?s!
+[20:10:02] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 4636?s!
+[20:10:04] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 35093?s!
+[20:12:30] [Server thread/INFO]: Saving and pausing game...
+[20:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[20:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[20:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[20:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[20:12:42] [Server thread/INFO]: Saving and pausing game...
+[20:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[20:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[20:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[20:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[20:12:52] [Render thread/INFO]: [CHAT] Quests saved on server
+[20:13:13] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 6635?s!
+[20:13:15] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 61897?s!
+[20:13:56] [Server thread/INFO]: Saving and pausing game...
+[20:13:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[20:13:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[20:13:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[20:13:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[20:13:57] [Server thread/INFO]: Saving and pausing game...
+[20:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[20:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[20:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[20:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[20:14:01] [Render thread/INFO]: [CHAT] Quests saved on server
+[20:14:02] [Server thread/INFO]: Saving and pausing game...
+[20:14:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[20:14:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[20:14:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[20:14:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[20:14:03] [Render thread/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[20:14:03] [Thread-87/INFO]: [EMI] Clearing data
+[20:14:03] [Render thread/INFO]: [voicechat] Clearing audio channels
+[20:14:03] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[20:14:03] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[20:14:03] [Server thread/INFO]: MonkeyMC lost connection: Disconnected
+[20:14:03] [Server thread/INFO]: MonkeyMC left the game
+[20:14:03] [Server thread/INFO]: remove player wand
+[20:14:03] [Server thread/INFO]: [voicechat] Disconnecting client MonkeyMC
+[20:14:03] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:14:03] [Server thread/INFO]: Stopping server
+[20:14:03] [Server thread/INFO]: Saving players
+[20:14:03] [Server thread/INFO]: Saving worlds
+[20:14:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:overworld
+[20:14:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_end
+[20:14:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/minecraft:the_nether
+[20:14:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev Region]'/ae2:spatial_storage
+[20:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (Dev Region): All chunks are saved
+[20:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[20:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:14:04] [Server thread/INFO]: Unloading server configs...
+[20:14:04] [Server thread/INFO]: Sending config unload event for mighty_mail.server.toml
+[20:14:07] [Render thread/INFO]: Stopping worker threads
+[20:14:07] [Render thread/INFO]: emissive suffixes loaded: {_e}.
+[20:14:13] [Render thread/INFO]: Stopping!
+[20:14:13] [Render thread/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[20:14:13] [Thread-92/INFO]: [EMI] Clearing data
+[20:14:13] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[20:14:16] [Render thread/INFO]: emissive suffixes loaded: {_e}.
+[20:14:16] [Render thread/INFO]: Shutting down map thread

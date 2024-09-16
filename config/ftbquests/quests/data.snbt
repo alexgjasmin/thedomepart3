@@ -9,7 +9,7 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
-	icon: "ftbquests:book"
+	icon: "minecraft:writable_book"
 	lock_message: "Complete the previous quests!"
 	loot_crate_no_drop: {
 		boss: 0
@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: " &fDiary"
+	title: " &fThe Key"
 	version: 13
 }
