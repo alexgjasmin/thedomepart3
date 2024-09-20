@@ -1,23 +1,4 @@
-# Last execution: 13-09-2024 22:27:23
-ae2:inscriber {
-	- ae2:inscriber/calculation_processor_press
-		    Original: {"type":"ae2:inscriber","ingredients":{"middle":{"item":"minecraft:iron_block"},"top":{"item":"ae2:calculation_processor_press"}},"mode":"inscribe","result":{"item":"ae2:calculation_processor_press"}}
-		 Transformed: {"type":"ae2:inscriber","ingredients":{"middle":{"tag":"c:iron_blocks"},"top":{"item":"ae2:calculation_processor_press"}},"mode":"inscribe","result":{"item":"ae2:calculation_processor_press"}}
-
-	- ae2:inscriber/engineering_processor_press
-		    Original: {"type":"ae2:inscriber","ingredients":{"middle":{"item":"minecraft:iron_block"},"top":{"item":"ae2:engineering_processor_press"}},"mode":"inscribe","result":{"item":"ae2:engineering_processor_press"}}
-		 Transformed: {"type":"ae2:inscriber","ingredients":{"middle":{"tag":"c:iron_blocks"},"top":{"item":"ae2:engineering_processor_press"}},"mode":"inscribe","result":{"item":"ae2:engineering_processor_press"}}
-
-	- ae2:inscriber/logic_processor_press
-		    Original: {"type":"ae2:inscriber","ingredients":{"middle":{"item":"minecraft:iron_block"},"top":{"item":"ae2:logic_processor_press"}},"mode":"inscribe","result":{"item":"ae2:logic_processor_press"}}
-		 Transformed: {"type":"ae2:inscriber","ingredients":{"middle":{"tag":"c:iron_blocks"},"top":{"item":"ae2:logic_processor_press"}},"mode":"inscribe","result":{"item":"ae2:logic_processor_press"}}
-
-	- ae2:inscriber/silicon_press
-		    Original: {"type":"ae2:inscriber","ingredients":{"middle":{"item":"minecraft:iron_block"},"top":{"item":"ae2:silicon_press"}},"mode":"inscribe","result":{"item":"ae2:silicon_press"}}
-		 Transformed: {"type":"ae2:inscriber","ingredients":{"middle":{"tag":"c:iron_blocks"},"top":{"item":"ae2:silicon_press"}},"mode":"inscribe","result":{"item":"ae2:silicon_press"}}
-
-}
-
+# Last execution: 20-09-2024 12:52:53
 alloy_forgery:forging {
 	- alloy_forgery:compat/alloys/brass_from_ingots
 		    Original: {"fabric:load_conditions":[{"condition":"fabric:item_tags_populated","values":["c:copper_ingots","c:zinc_ingots","c:brass_ingots"]}],"type":"alloy_forgery:forging","inputs":[{"tag":"c:copper_ingots","count":2},{"tag":"c:zinc_ingots"}],"output":{"priority":["create:brass_ingot","techreborn:brass_ingot"],"default":"c:brass_ingots","count":3},"min_forge_tier":1,"fuel_per_tick":5}
@@ -176,6 +157,10 @@ create:compacting {
 		    Original: {"type":"create:compacting","heatRequirement":"heated","ingredients":[{"item":"minecraft:iron_block"}],"results":[{"item":"create:industrial_iron_block"}]}
 		 Transformed: {"type":"create:compacting","heatRequirement":"heated","ingredients":[{"tag":"c:iron_blocks"}],"results":[{"item":"create:industrial_iron_block"}]}
 
+	- createbigcannons:compacting/iron_to_cast_iron_block
+		    Original: {"type":"create:compacting","heatRequirement":"heated","ingredients":[{"item":"minecraft:iron_block"}],"results":[{"item":"createbigcannons:cast_iron_block"}]}
+		 Transformed: {"type":"create:compacting","heatRequirement":"heated","ingredients":[{"tag":"c:iron_blocks"}],"results":[{"item":"createbigcannons:cast_iron_block"}]}
+
 }
 
 create:crushing {
@@ -261,7 +246,7 @@ create:crushing {
 
 	- create:crushing/raw_iron
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_iron"}],"processingTime":400,"results":[{"item":"create:crushed_raw_iron"},{"chance":0.75,"item":"create:experience_nugget"}]}
-		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:raw_iron_ores"}],"processingTime":400,"results":[{"item":"create:crushed_raw_iron"},{"chance":0.75,"item":"create:experience_nugget"}]}
+		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:iron_raw_materials"}],"processingTime":400,"results":[{"item":"create:crushed_raw_iron"},{"chance":0.75,"item":"create:experience_nugget"}]}
 
 	- create:crushing/raw_iron_block
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_iron_block"}],"processingTime":400,"results":[{"count":9,"item":"create:crushed_raw_iron"},{"chance":0.75,"count":9,"item":"create:experience_nugget"}]}
@@ -479,7 +464,7 @@ minecraft:blasting {
 
 	- minecraft:iron_ingot_from_blasting_raw_iron
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"iron_ingot","ingredient":{"item":"minecraft:raw_iron"},"result":"minecraft:iron_ingot"}
-		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:raw_iron_ores"},"result":"minecraft:iron_ingot"}
+		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:iron_raw_materials"},"result":"minecraft:iron_ingot"}
 
 	- minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.2,"group":"lapis_lazuli","ingredient":{"item":"minecraft:deepslate_lapis_ore"},"result":"minecraft:lapis_lazuli"}
@@ -1910,7 +1895,11 @@ minecraft:crafting_shaped {
 
 	- minecraft:raw_iron_block
 		    Original: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"minecraft:raw_iron"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_iron_block"},"show_notification":true}
-		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:raw_iron_ores"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_iron_block"},"show_notification":true}
+		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:iron_raw_materials"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_iron_block"},"show_notification":true}
+
+	- minecraft:saddle
+		    Original: {"type":"minecraft:crafting_shaped","pattern":["LLL","R R","I I"],"key":{"L":{"item":"minecraft:leather"},"I":{"item":"minecraft:iron_nugget"},"R":{"tag":"c:ropes"}},"result":{"item":"minecraft:saddle","count":1}}
+		 Transformed: {"type":"minecraft:crafting_shaped","pattern":["LLL","R R","I I"],"key":{"L":{"item":"minecraft:leather"},"I":{"tag":"c:iron_nuggets"},"R":{"tag":"c:ropes"}},"result":{"item":"minecraft:saddle","count":1}}
 
 	- minecraft:soul_lantern
 		    Original: {"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:soul_torch"},"X":{"item":"minecraft:iron_nugget"}},"pattern":["XXX","X#X","XXX"],"result":{"item":"minecraft:soul_lantern"},"show_notification":true}
@@ -2704,34 +2693,6 @@ minecraft:crafting_shaped {
 		    Original: {"type":"minecraft:crafting_shaped","pattern":["###","#G#","###"],"key":{"#":{"item":"minecraft:iron_nugget"},"G":{"item":"minecraft:gunpowder"}},"result":{"item":"smallships:cannon_ball","count":2}}
 		 Transformed: {"type":"minecraft:crafting_shaped","pattern":["###","#G#","###"],"key":{"#":{"tag":"c:iron_nuggets"},"G":{"item":"minecraft:gunpowder"}},"result":{"item":"smallships:cannon_ball","count":2}}
 
-	- sophisticatedbackpacks:stack_upgrade_tier_1
-		    Original: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_1"}],"type":"minecraft:crafting_shaped","key":{"B":{"item":"sophisticatedbackpacks:upgrade_base"},"I":{"item":"minecraft:iron_block"}},"pattern":["III","IBI","III"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_1"}}
-		 Transformed: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_1"}],"type":"minecraft:crafting_shaped","key":{"B":{"item":"sophisticatedbackpacks:upgrade_base"},"I":{"tag":"c:iron_blocks"}},"pattern":["III","IBI","III"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_1"}}
-
-	- sophisticatedbackpacks:stack_upgrade_tier_2
-		    Original: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_2"}],"type":"minecraft:crafting_shaped","key":{"G":{"item":"minecraft:gold_block"},"S":{"item":"sophisticatedbackpacks:stack_upgrade_tier_1"}},"pattern":["GGG","GSG","GGG"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_2"}}
-		 Transformed: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_2"}],"type":"minecraft:crafting_shaped","key":{"G":{"tag":"c:gold_blocks"},"S":{"item":"sophisticatedbackpacks:stack_upgrade_tier_1"}},"pattern":["GGG","GSG","GGG"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_2"}}
-
-	- sophisticatedbackpacks:stack_upgrade_tier_3
-		    Original: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_3"}],"type":"minecraft:crafting_shaped","key":{"D":{"item":"minecraft:diamond_block"},"S":{"item":"sophisticatedbackpacks:stack_upgrade_tier_2"}},"pattern":["DDD","DSD","DDD"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_3"}}
-		 Transformed: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_3"}],"type":"minecraft:crafting_shaped","key":{"D":{"tag":"c:diamond_blocks"},"S":{"item":"sophisticatedbackpacks:stack_upgrade_tier_2"}},"pattern":["DDD","DSD","DDD"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_3"}}
-
-	- sophisticatedbackpacks:stack_upgrade_tier_4
-		    Original: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_4"}],"type":"minecraft:crafting_shaped","key":{"N":{"item":"minecraft:netherite_block"},"S":{"item":"sophisticatedbackpacks:stack_upgrade_tier_3"}},"pattern":["NNN","NSN","NNN"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_4"}}
-		 Transformed: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedbackpacks:stack_upgrade_tier_4"}],"type":"minecraft:crafting_shaped","key":{"N":{"tag":"c:netherite_blocks"},"S":{"item":"sophisticatedbackpacks:stack_upgrade_tier_3"}},"pattern":["NNN","NSN","NNN"],"result":{"item":"sophisticatedbackpacks:stack_upgrade_tier_4"}}
-
-	- sophisticatedstorage:stack_upgrade_tier_2
-		    Original: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:stack_upgrade_tier_2"}],"type":"minecraft:crafting_shaped","key":{"B":{"item":"minecraft:iron_block"},"I":{"tag":"c:iron_ingots"},"S":{"item":"sophisticatedstorage:stack_upgrade_tier_1"}},"pattern":["III","ISI","BIB"],"result":{"item":"sophisticatedstorage:stack_upgrade_tier_2"}}
-		 Transformed: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:stack_upgrade_tier_2"}],"type":"minecraft:crafting_shaped","key":{"B":{"tag":"c:iron_blocks"},"I":{"tag":"c:iron_ingots"},"S":{"item":"sophisticatedstorage:stack_upgrade_tier_1"}},"pattern":["III","ISI","BIB"],"result":{"item":"sophisticatedstorage:stack_upgrade_tier_2"}}
-
-	- sophisticatedstorage:stack_upgrade_tier_3
-		    Original: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:stack_upgrade_tier_3"}],"type":"minecraft:crafting_shaped","key":{"B":{"item":"minecraft:gold_block"},"G":{"tag":"c:gold_ingots"},"S":{"item":"sophisticatedstorage:stack_upgrade_tier_2"}},"pattern":["GGG","GSG","BGB"],"result":{"item":"sophisticatedstorage:stack_upgrade_tier_3"}}
-		 Transformed: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:stack_upgrade_tier_3"}],"type":"minecraft:crafting_shaped","key":{"B":{"tag":"c:gold_blocks"},"G":{"tag":"c:gold_ingots"},"S":{"item":"sophisticatedstorage:stack_upgrade_tier_2"}},"pattern":["GGG","GSG","BGB"],"result":{"item":"sophisticatedstorage:stack_upgrade_tier_3"}}
-
-	- sophisticatedstorage:stack_upgrade_tier_4
-		    Original: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:stack_upgrade_tier_4"}],"type":"minecraft:crafting_shaped","key":{"B":{"item":"minecraft:diamond_block"},"D":{"tag":"c:diamonds"},"S":{"item":"sophisticatedstorage:stack_upgrade_tier_3"}},"pattern":["DDD","DSD","BDB"],"result":{"item":"sophisticatedstorage:stack_upgrade_tier_4"}}
-		 Transformed: {"fabric:load_conditions":[{"condition":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:stack_upgrade_tier_4"}],"type":"minecraft:crafting_shaped","key":{"B":{"tag":"c:diamond_blocks"},"D":{"tag":"c:diamonds"},"S":{"item":"sophisticatedstorage:stack_upgrade_tier_3"}},"pattern":["DDD","DSD","BDB"],"result":{"item":"sophisticatedstorage:stack_upgrade_tier_4"}}
-
 	- spiceoffabric:lunch_box
 		    Original: {"type":"minecraft:crafting_shaped","pattern":["PNP","PPP"],"key":{"P":{"tag":"minecraft:planks"},"N":{"item":"minecraft:gold_ingot"}},"result":{"item":"spiceoffabric:lunch_box"},"fabric:load_conditions":[{"condition":"spiceoffabric:registry_populated","registry":"minecraft:item","ids":["spiceoffabric:lunch_box"]}]}
 		 Transformed: {"type":"minecraft:crafting_shaped","pattern":["PNP","PPP"],"key":{"P":{"tag":"minecraft:planks"},"N":{"tag":"c:gold_ingots"}},"result":{"item":"spiceoffabric:lunch_box"},"fabric:load_conditions":[{"condition":"spiceoffabric:registry_populated","registry":"minecraft:item","ids":["spiceoffabric:lunch_box"]}]}
@@ -3288,7 +3249,7 @@ minecraft:smelting {
 
 	- minecraft:iron_ingot_from_smelting_raw_iron
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"iron_ingot","ingredient":{"item":"minecraft:raw_iron"},"result":"minecraft:iron_ingot"}
-		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:raw_iron_ores"},"result":"minecraft:iron_ingot"}
+		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"iron_ingot","ingredient":{"tag":"c:iron_raw_materials"},"result":"minecraft:iron_ingot"}
 
 	- minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.2,"group":"lapis_lazuli","ingredient":{"item":"minecraft:deepslate_lapis_ore"},"result":"minecraft:lapis_lazuli"}
@@ -3691,13 +3652,6 @@ minecraft:stonecutting {
 	- railways:stonecutting/riveted_locometal
 		    Original: {"type":"minecraft:stonecutting","count":8,"ingredient":{"item":"minecraft:iron_block"},"result":"railways:riveted_locometal"}
 		 Transformed: {"type":"minecraft:stonecutting","count":8,"ingredient":{"tag":"c:iron_blocks"},"result":"railways:riveted_locometal"}
-
-}
-
-sophisticatedbackpacks:smithing_backpack_upgrade {
-	- sophisticatedbackpacks:netherite_backpack
-		    Original: {"type":"sophisticatedbackpacks:smithing_backpack_upgrade","addition":{"item":"minecraft:netherite_ingot"},"base":{"item":"sophisticatedbackpacks:diamond_backpack"},"result":{"item":"sophisticatedbackpacks:netherite_backpack"},"template":{"item":"minecraft:netherite_upgrade_smithing_template"}}
-		 Transformed: {"type":"sophisticatedbackpacks:smithing_backpack_upgrade","addition":{"tag":"c:netherite_ingots"},"base":{"item":"sophisticatedbackpacks:diamond_backpack"},"result":{"item":"sophisticatedbackpacks:netherite_backpack"},"template":{"item":"minecraft:netherite_upgrade_smithing_template"}}
 
 }
 
