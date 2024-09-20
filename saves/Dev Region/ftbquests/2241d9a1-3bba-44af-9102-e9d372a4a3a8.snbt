@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "2241d9a13bba44af9102e9d372a4a3a8"
+	name: "MonkeyMC#2241d9a1"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+	repeated_completions: { }
+}
