@@ -1,11 +1,6 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "types": {
-    "cake": {
-      "createaddition.chocolate_cake": true,
-      "createaddition.honey_cake": true,
-      "ubesdelight.ube_cake": true
-    },
     "leaves_type": {
       "chipped.apple_acacia": true,
       "chipped.cherry_acacia": true,
@@ -104,6 +99,11 @@
       "luphieclutteredmod.luphie_purple": true,
       "luphieclutteredmod.luphie_flowering_purple": true,
       "luphieclutteredmod.luphie_pink": true
+    },
+    "cake": {
+      "createaddition.chocolate_cake": true,
+      "createaddition.honey_cake": true,
+      "ubesdelight.ube_cake": true
     }
   },
   "entries": {
@@ -153,6 +153,7 @@
       "mcwfences.picket_fence": true,
       "chipped.whirlwind_planks": true,
       "chipped.large_diamond_glass_pane": true,
+      "beautify.picture_frame": true,
       "mcwfurnitures.stripped_modern_wardrobe": true,
       "chipped.mixed_log": true,
       "mcwwindows.window2": true,
@@ -269,6 +270,7 @@
       "chipped.torch": true,
       "chipped.screen_door": true,
       "mcwfences.highley_gate": true,
+      "beautify.blinds": true,
       "chipped.crossed_planks": true,
       "mcwroofs.upper_steep_roof": true,
       "mcwfurnitures.stripped_lower_triple_drawer": true,
@@ -294,6 +296,7 @@
       "mcwfurnitures.stripped_stool_chair": true,
       "mcwwindows.log_parapet": true,
       "another_furniture.flower_box": true,
+      "beautify.trellis": true,
       "chipped.woven_glass": true,
       "mcwfurnitures.cupboard_counter": true,
       "mcwroofs.attic_roof": true,

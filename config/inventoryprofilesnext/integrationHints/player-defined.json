@@ -284,5 +284,38 @@
         "ignore": true,
         "playerSideOnly": true,
         "force": true
+    },
+    "wraith.fwaystones.screen.AbyssScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "wraith.fwaystones.screen.AbyssScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "fuzs.puzzlesapi.api.client.statues.v1.gui.screens.armorstand.ArmorStandEquipmentScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "fuzs.puzzlesapi.api.statues.v1.world.inventory.ArmorStandMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "rbasamoyai.createbigcannons.munitions.autocannon.ammo_container.AutocannonAmmoContainerScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "rbasamoyai.createbigcannons.munitions.autocannon.ammo_container.AutocannonAmmoContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
     }
 }
