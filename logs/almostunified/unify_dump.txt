@@ -1,4 +1,4 @@
-# Last execution: 15-09-2024 19:52:04
+# Last execution: 18-09-2024 16:01:57
 ae2:inscriber {
 	- ae2:inscriber/calculation_processor_press
 		    Original: {"type":"ae2:inscriber","ingredients":{"middle":{"item":"minecraft:iron_block"},"top":{"item":"ae2:calculation_processor_press"}},"mode":"inscribe","result":{"item":"ae2:calculation_processor_press"}}
@@ -57,7 +57,7 @@ alloy_forgery:forging {
 
 	- mythicmetals:alloy_forge/alloy_bronze_from_raw_ores
 		    Original: {"type":"alloy_forgery:forging","inputs":[{"item":"minecraft:raw_copper"},{"item":"minecraft:raw_copper"},{"item":"mythicmetals:raw_tin"}],"output":{"id":"mythicmetals:bronze_ingot","count":2},"overrides":{"2+":{"id":"mythicmetals:bronze_ingot","count":3}},"min_forge_tier":1,"fuel_per_tick":5}
-		 Transformed: {"type":"alloy_forgery:forging","inputs":[{"tag":"c:copper_raw_materials"},{"tag":"c:copper_raw_materials"},{"tag":"c:raw_tin_ores"}],"output":{"id":"mythicmetals:bronze_ingot","count":2},"overrides":{"2+":{"id":"mythicmetals:bronze_ingot","count":3}},"min_forge_tier":1,"fuel_per_tick":5}
+		 Transformed: {"type":"alloy_forgery:forging","inputs":[{"tag":"c:raw_copper_ores"},{"tag":"c:raw_copper_ores"},{"tag":"c:raw_tin_ores"}],"output":{"id":"mythicmetals:bronze_ingot","count":2},"overrides":{"2+":{"id":"mythicmetals:bronze_ingot","count":3}},"min_forge_tier":1,"fuel_per_tick":5}
 
 	- mythicmetals:alloy_forge/forge_osmium_ingot_from_raw_ore
 		    Original: {"type":"alloy_forgery:forging","inputs":[{"item":"mythicmetals:raw_osmium"},{"item":"mythicmetals:raw_osmium"}],"output":{"id":"mythicmetals:osmium_ingot","count":2},"overrides":{"3+":{"id":"mythicmetals:osmium_ingot","count":3}},"min_forge_tier":2,"fuel_per_tick":10}
@@ -164,6 +164,17 @@ automobility:auto_mechanic_table {
 
 }
 
+avaritia:extreme_shaped {
+	- avaritia:compressor
+		    Original: {"type":"avaritia:extreme_shaped","result":{"item":"avaritia:compressor"},"pattern":["IIIHHHIII","X N   N X","I N   N I","X N   N X","RNN O NNR","X N   N X","I N   N I","X N   N X","IIIXIXIII"],"key":{"N":{"item":"avaritia:neutronium_ingot"},"H":{"item":"minecraft:hopper"},"I":{"item":"minecraft:iron_block"},"O":{"item":"avaritia:neutronium_block"},"X":{"item":"avaritia:crystal_matrix_ingot"},"R":{"item":"minecraft:redstone_block"}}}
+		 Transformed: {"type":"avaritia:extreme_shaped","result":{"item":"avaritia:compressor"},"pattern":["IIIHHHIII","X N   N X","I N   N I","X N   N X","RNN O NNR","X N   N X","I N   N I","X N   N X","IIIXIXIII"],"key":{"N":{"item":"avaritia:neutronium_ingot"},"H":{"item":"minecraft:hopper"},"I":{"tag":"c:iron_blocks"},"O":{"item":"avaritia:neutronium_block"},"X":{"item":"avaritia:crystal_matrix_ingot"},"R":{"item":"minecraft:redstone_block"}}}
+
+	- avaritia:neutron_collector
+		    Original: {"type":"avaritia:extreme_shaped","result":{"item":"avaritia:neutron_collector"},"pattern":["IIQQQQQII","I QQQQQ I","I  RRR  I","X RRRRR X","I RRXRR I","X RRRRR X","I  RRR  I","I       I","IIIXIXIII"],"key":{"I":{"item":"minecraft:iron_block"},"X":{"item":"avaritia:crystal_matrix_ingot"},"R":{"item":"minecraft:redstone_block"},"Q":{"item":"minecraft:quartz_block"}}}
+		 Transformed: {"type":"avaritia:extreme_shaped","result":{"item":"avaritia:neutron_collector"},"pattern":["IIQQQQQII","I QQQQQ I","I  RRR  I","X RRRRR X","I RRXRR I","X RRRRR X","I  RRR  I","I       I","IIIXIXIII"],"key":{"I":{"tag":"c:iron_blocks"},"X":{"item":"avaritia:crystal_matrix_ingot"},"R":{"item":"minecraft:redstone_block"},"Q":{"item":"minecraft:quartz_block"}}}
+
+}
+
 bclib:alloying {
 	- betterend:aeternium_ingot
 		    Original: {"type":"bclib:alloying","experience":4.5,"ingredients":[{"item":"betterend:terminite_ingot"},{"item":"minecraft:netherite_ingot"}],"result":{"item":"betterend:aeternium_ingot"},"smelttime":850}
@@ -245,7 +256,7 @@ create:crushing {
 
 	- create:crushing/raw_copper
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_copper"}],"processingTime":400,"results":[{"item":"create:crushed_raw_copper"},{"chance":0.75,"item":"create:experience_nugget"}]}
-		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:copper_raw_materials"}],"processingTime":400,"results":[{"item":"create:crushed_raw_copper"},{"chance":0.75,"item":"create:experience_nugget"}]}
+		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:raw_copper_ores"}],"processingTime":400,"results":[{"item":"create:crushed_raw_copper"},{"chance":0.75,"item":"create:experience_nugget"}]}
 
 	- create:crushing/raw_copper_block
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_copper_block"}],"processingTime":400,"results":[{"count":9,"item":"create:crushed_raw_copper"},{"chance":0.75,"count":9,"item":"create:experience_nugget"}]}
@@ -253,7 +264,7 @@ create:crushing {
 
 	- create:crushing/raw_gold
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_gold"}],"processingTime":400,"results":[{"item":"create:crushed_raw_gold"},{"chance":0.75,"count":2,"item":"create:experience_nugget"}]}
-		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:raw_gold_ores"}],"processingTime":400,"results":[{"item":"create:crushed_raw_gold"},{"chance":0.75,"count":2,"item":"create:experience_nugget"}]}
+		 Transformed: {"type":"create:crushing","ingredients":[{"tag":"c:gold_raw_materials"}],"processingTime":400,"results":[{"item":"create:crushed_raw_gold"},{"chance":0.75,"count":2,"item":"create:experience_nugget"}]}
 
 	- create:crushing/raw_gold_block
 		    Original: {"type":"create:crushing","ingredients":[{"item":"minecraft:raw_gold_block"}],"processingTime":400,"results":[{"count":9,"item":"create:crushed_raw_gold"},{"chance":0.75,"count":18,"item":"create:experience_nugget"}]}
@@ -435,7 +446,7 @@ minecraft:blasting {
 
 	- minecraft:copper_ingot_from_blasting_raw_copper
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"copper_ingot","ingredient":{"item":"minecraft:raw_copper"},"result":"minecraft:copper_ingot"}
-		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"copper_ingot","ingredient":{"tag":"c:copper_raw_materials"},"result":"minecraft:copper_ingot"}
+		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"copper_ingot","ingredient":{"tag":"c:raw_copper_ores"},"result":"minecraft:copper_ingot"}
 
 	- minecraft:diamond_from_blasting_deepslate_diamond_ore
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":1.0,"group":"diamond","ingredient":{"item":"minecraft:deepslate_diamond_ore"},"result":"minecraft:diamond"}
@@ -467,7 +478,7 @@ minecraft:blasting {
 
 	- minecraft:gold_ingot_from_blasting_raw_gold
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":1.0,"group":"gold_ingot","ingredient":{"item":"minecraft:raw_gold"},"result":"minecraft:gold_ingot"}
-		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":1.0,"group":"gold_ingot","ingredient":{"tag":"c:raw_gold_ores"},"result":"minecraft:gold_ingot"}
+		 Transformed: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":1.0,"group":"gold_ingot","ingredient":{"tag":"c:gold_raw_materials"},"result":"minecraft:gold_ingot"}
 
 	- minecraft:iron_ingot_from_blasting_deepslate_iron_ore
 		    Original: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":0.7,"group":"iron_ingot","ingredient":{"item":"minecraft:deepslate_iron_ore"},"result":"minecraft:iron_ingot"}
@@ -866,7 +877,7 @@ minecraft:crafting_shaped {
 
 	- cobblemon:kings_rock
 		    Original: {"type":"minecraft:crafting_shaped","pattern":[" C ","GSG","SGS"],"key":{"C":{"item":"minecraft:chiseled_sandstone"},"G":{"item":"minecraft:raw_gold"},"S":{"item":"minecraft:sandstone"}},"result":{"item":"cobblemon:kings_rock"}}
-		 Transformed: {"type":"minecraft:crafting_shaped","pattern":[" C ","GSG","SGS"],"key":{"C":{"item":"minecraft:chiseled_sandstone"},"G":{"tag":"c:raw_gold_ores"},"S":{"item":"minecraft:sandstone"}},"result":{"item":"cobblemon:kings_rock"}}
+		 Transformed: {"type":"minecraft:crafting_shaped","pattern":[" C ","GSG","SGS"],"key":{"C":{"item":"minecraft:chiseled_sandstone"},"G":{"tag":"c:gold_raw_materials"},"S":{"item":"minecraft:sandstone"}},"result":{"item":"cobblemon:kings_rock"}}
 
 	- cobblemon:link_cable
 		    Original: {"type":"minecraft:crafting_shaped","pattern":["  I","PCP","I  "],"key":{"I":{"item":"minecraft:iron_ingot"},"C":{"item":"minecraft:copper_ingot"},"P":{"item":"minecraft:popped_chorus_fruit"}},"result":{"item":"cobblemon:link_cable"}}
@@ -1902,11 +1913,11 @@ minecraft:crafting_shaped {
 
 	- minecraft:raw_copper_block
 		    Original: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"minecraft:raw_copper"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_copper_block"},"show_notification":true}
-		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:copper_raw_materials"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_copper_block"},"show_notification":true}
+		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:raw_copper_ores"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_copper_block"},"show_notification":true}
 
 	- minecraft:raw_gold_block
 		    Original: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"minecraft:raw_gold"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_gold_block"},"show_notification":true}
-		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:raw_gold_ores"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_gold_block"},"show_notification":true}
+		 Transformed: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"c:gold_raw_materials"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_gold_block"},"show_notification":true}
 
 	- minecraft:raw_iron_block
 		    Original: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"minecraft:raw_iron"}},"pattern":["###","###","###"],"result":{"item":"minecraft:raw_iron_block"},"show_notification":true}
@@ -3244,7 +3255,7 @@ minecraft:smelting {
 
 	- minecraft:copper_ingot_from_smelting_raw_copper
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"copper_ingot","ingredient":{"item":"minecraft:raw_copper"},"result":"minecraft:copper_ingot"}
-		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"copper_ingot","ingredient":{"tag":"c:copper_raw_materials"},"result":"minecraft:copper_ingot"}
+		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"copper_ingot","ingredient":{"tag":"c:raw_copper_ores"},"result":"minecraft:copper_ingot"}
 
 	- minecraft:diamond_from_smelting_deepslate_diamond_ore
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":1.0,"group":"diamond","ingredient":{"item":"minecraft:deepslate_diamond_ore"},"result":"minecraft:diamond"}
@@ -3276,7 +3287,7 @@ minecraft:smelting {
 
 	- minecraft:gold_ingot_from_smelting_raw_gold
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":1.0,"group":"gold_ingot","ingredient":{"item":"minecraft:raw_gold"},"result":"minecraft:gold_ingot"}
-		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":1.0,"group":"gold_ingot","ingredient":{"tag":"c:raw_gold_ores"},"result":"minecraft:gold_ingot"}
+		 Transformed: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":1.0,"group":"gold_ingot","ingredient":{"tag":"c:gold_raw_materials"},"result":"minecraft:gold_ingot"}
 
 	- minecraft:iron_ingot_from_smelting_deepslate_iron_ore
 		    Original: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":0.7,"group":"iron_ingot","ingredient":{"item":"minecraft:deepslate_iron_ore"},"result":"minecraft:iron_ingot"}

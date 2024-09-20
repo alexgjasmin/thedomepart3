@@ -1,9 +1,9 @@
-# Last execution: 15-09-2024 19:52:04
+# Last execution: 18-09-2024 16:01:57
 # Overview:
-	- Unified: 910
+	- Unified: 912
 	- Duplicates: 16 (Individual: 34)
-	- Total Recipes: 18776
-	- Elapsed Time: 2754ms
+	- Total Recipes: 19032
+	- Elapsed Time: 2867ms
 
 # Summary: 
 Recipe type                                   |    Unifies | Duplicates |   All
@@ -11,6 +11,7 @@ Recipe type                                   |    Unifies | Duplicates |   All
 ae2:inscriber                                 |          4 |            |    15
 alloy_forgery:forging                         |         15 |            |   113
 automobility:auto_mechanic_table              |         20 |            |    63
+avaritia:extreme_shaped                       |          2 |            |    18
 bclib:alloying                                |          1 |            |     8
 create:compacting                             |          1 |            |    13
 create:crushing                               |         25 |            |   128
@@ -24,8 +25,8 @@ create:sequenced_assembly                     |          1 |            |   116
 createaddition:rolling                        |          1 |            |    10
 guarding:smithing_transform_shield            |          1 |            |     1
 minecraft:blasting                            |         24 |    7 ( 15) |   150
-minecraft:crafting_shaped                     |        615 |            | 10739
-minecraft:crafting_shapeless                  |         61 |    1 (  2) |  2097
+minecraft:crafting_shaped                     |        615 |            | 10968
+minecraft:crafting_shapeless                  |         61 |    1 (  2) |  2103
 minecraft:smelting                            |         24 |    7 ( 15) |   267
 minecraft:smithing_transform                  |         41 |            |   192
 minecraft:stonecutting                        |         51 |            |  3383

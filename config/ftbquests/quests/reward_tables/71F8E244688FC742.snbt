@@ -1,0 +1,8 @@
+{
+	icon: "minecraft:chest"
+	id: "71F8E244688FC742"
+	loot_size: 1
+	order_index: 13
+	rewards: [{ }]
+	title: "Chest"
+}

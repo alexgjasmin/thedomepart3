@@ -23,11 +23,6 @@
       "luphieclutteredmod.luphie_flowering_purple": true,
       "luphieclutteredmod.luphie_pink": true
     },
-    "cake": {
-      "createaddition.chocolate_cake": true,
-      "createaddition.honey_cake": true,
-      "ubesdelight.ube_cake": true
-    },
     "leaves_type": {
       "chipped.apple_acacia": true,
       "chipped.cherry_acacia": true,
@@ -104,6 +99,11 @@
       "vinery.grapevine": true,
       "vinery.dark_cherry": true,
       "vinery.apple": true
+    },
+    "cake": {
+      "createaddition.chocolate_cake": true,
+      "createaddition.honey_cake": true,
+      "ubesdelight.ube_cake": true
     }
   },
   "entries": {

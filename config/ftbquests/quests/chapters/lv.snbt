@@ -3,35 +3,478 @@
 	default_quest_shape: ""
 	filename: "lv"
 	group: "4B01C48E311D52E5"
+	icon: "avaritia:cosmic_meatballs"
 	id: "1F4B1E2BAB4C0CA7"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"&oYou were gonna blow up my house.&r"
-			"&4Now I'm gonna blow up your prostate.&r"
-		]
-		id: "3C7C2C4883690EBF"
-		tasks: [
-			{
-				count: 1000L
-				id: "5064BE551BFE3DEC"
-				item: "a_man_with_plushies:steve_plush"
-				title: "I. Am. Steve."
+	quests: [
+		{
+			dependencies: [
+				"417F7F1DEA38DCDD"
+				"3644C5C75DE8D481"
+			]
+			description: [
+				"&oYou were gonna blow up my house.&r"
+				"jac blak"
+			]
+			icon: "a_man_with_plushies:steve_plush"
+			id: "3C7C2C4883690EBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AEB968B72128F02"
+					table_id: 4325944826863906782L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "250F2E44ADD77CF4"
+					table_id: 5212314355944484118L
+					type: "random"
+				}
+			]
+			size: 3.0d
+			tasks: [
+				{
+					count: 250L
+					id: "5064BE551BFE3DEC"
+					item: "a_man_with_plushies:steve_plush"
+					title: "250 Steves, NOW"
+					type: "item"
+				}
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_spawn_egg"
+					id: "4EA067A6090B431F"
+					title: "Kill 500 Creepers"
+					type: "kill"
+					value: 500L
+				}
+			]
+			title: "You were gonna blow up my house."
+			x: -9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1398004E3A63865E"]
+			description: ["&o&525 balls please.&r&r"]
+			icon: "avaritia:cosmic_meatballs"
+			id: "3ED40048885DBC6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D4E67E960B27B2"
+				table_id: 4325944826863906782L
+				type: "loot"
+			}]
+			subtitle: "Make 'em shiny"
+			tasks: [{
+				count: 25L
+				id: "50B752E44F7B4C74"
+				item: "avaritia:cosmic_meatballs"
+				title: "Balls"
 				type: "item"
+			}]
+			title: "Last Meal"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1398004E3A63865E"]
+			icon: "avaritia:neutronium_ingot"
+			id: "17D5EF43EA4E7DF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "200AE8F5108A8011"
+				table_id: 4325944826863906782L
+				type: "loot"
+			}]
+			subtitle: "You're a smart one, kiddo."
+			tasks: [
+				{
+					count: 9L
+					id: "56AA157909F19596"
+					item: { Count: 9, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "45154C97D51807D6"
+					item: { Count: 9, id: "avaritia:neutron_nugget" }
+					type: "item"
+				}
+				{
+					id: "57E1C52E569202FA"
+					item: "avaritia:neutronium_ingot"
+					type: "item"
+				}
+			]
+			title: "Jimmy Neutron"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["197DB9696FC87EA4"]
+			icon: {
+				Count: 1
+				id: "avaritia:singularity"
+				tag: {
+					singularity_type: "diamond"
+				}
 			}
-			{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_spawn_egg"
-				id: "4EA067A6090B431F"
-				title: "I'm gonna blow up your prostate."
+			id: "5213964CDC2EC0EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BCD5E5E1434085C"
+				table_id: 4325944826863906782L
+				type: "loot"
+			}]
+			subtitle: "Acquire all singularities in game."
+			tasks: [
+				{
+					count: 5L
+					id: "122D5F1325ED3955"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "gold"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2788485486B73C83"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "diamond"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "31CDF22D6886BB6B"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "copper"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3CE908CFBE64CFFE"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "41A2B43055AEA5E7"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "quartz"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0B6BC44C0E789F53"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "lapis"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "01F9E77FCF590907"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "amethyst"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "696C0D8C9C510D15"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "emerald"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7FA4AFE8D99EFE39"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "redstone"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "798867D29958F65D"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "enderite"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7B3BA36139A93C33"
+					item: {
+						Count: 5
+						id: "avaritia:singularity"
+						tag: {
+							singularity_type: "netherite"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6D962A5823547388"
+					item: { Count: 2, id: "ae2:singularity" }
+					type: "item"
+				}
+			]
+			title: "All The Singularities"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: ["&d&lEnd&r&r it quick! Dinner's ready!"]
+			id: "3644C5C75DE8D481"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BFDC6D83B556A37"
+				table_id: 4325944826863906782L
+				type: "random"
+			}]
+			subtitle: "Visit the end, and kill 10 Dragons, and 100 Dragonflies"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "7E6A7E9AD792FEC6"
+					title: "Imagine Dragons"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "betterend:dragonfly"
+					icon: {
+						Count: 1
+						id: "naturalist:bug_net"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7657779A837E783E"
+					type: "kill"
+					value: 100L
+				}
+			]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			icon: "avaritia:infinity_catalyst"
+			id: "1117C09C4A0DE0B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "mythicmetals:unobtainium"
+				id: "038D834B69EE8CE4"
+				table_id: 4325944826863906782L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6EAB696CD026A0BB"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1117C09C4A0DE0B7"]
+			dependency_requirement: "one_completed"
+			id: "7B857C69074ADA67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A0A8D759F872FE5"
+				table_id: 4325944826863906782L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "76D386CEAB3033BA"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.75d
+		}
+		{
+			id: "527856DBCFE98441"
+			rewards: [{
+				count: 4
+				id: "621F6A55087D5732"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			subtitle: "Acquire a crystal matrix ingot"
+			tasks: [{
+				id: "63388FC72466EDBE"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			title: "Get in the Matrix"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["527856DBCFE98441"]
+			id: "197DB9696FC87EA4"
+			size: 1.5d
+			subtitle: "Craft an extreme crafting table"
+			tasks: [{
+				id: "6EAAD7B78F0D8680"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			title: "This shit's extreme."
+			x: -4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["197DB9696FC87EA4"]
+			id: "630C1C5E6E748C44"
+			subtitle: "Acquire a neutron collector"
+			tasks: [{
+				id: "1CB5F25DB321E6B6"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			title: "New Tron: Collector"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["630C1C5E6E748C44"]
+			id: "0272A9A2332D45AC"
+			subtitle: "Acquire a pile of neutrons"
+			tasks: [{
+				id: "084DF26DE3A9C60A"
+				item: "avaritia:neutron_pile"
+				type: "item"
+			}]
+			title: "Neutron Dust"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0272A9A2332D45AC"]
+			id: "1398004E3A63865E"
+			subtitle: "Get a neutronium nugget"
+			tasks: [{
+				id: "3EFB60B4F6C1EA26"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Get me a nug"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1398004E3A63865E"]
+			id: "20D7A527455335A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5325141FF5E70301"
+				table_id: 4325944826863906782L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4504954F7D2C7044"
+				item: { Count: 8, id: "avaritia:ultimate_stew" }
+				type: "item"
+			}]
+			title: "Rabbit Stew"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17D5EF43EA4E7DF8"]
+			id: "63A29CBAA59519FA"
+			subtitle: "Acquire an endereererererest pearl"
+			tasks: [{
+				id: "05E6F8D256D414D3"
+				item: "avaritia:endest_pearl"
+				type: "item"
+			}]
+			title: "Enderestest Pearl"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "417F7F1DEA38DCDD"
+			subtitle: "Kill 50 withers"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "175575BF4D34618A"
+				title: "By Balls are Withering"
 				type: "kill"
-				value: 500L
-			}
-		]
-		title: "You were gonna blow up my house."
-		x: -0.5d
-		y: -1.0d
-	}]
-	title: "01"
+				value: 50L
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "37ED45CF29EDFDB4"
+			subtitle: "Acquire an avaritia record fragment"
+			tasks: [{
+				id: "3E912EA2B68EAF0D"
+				item: "avaritia:record_fragment"
+				type: "item"
+			}]
+			title: "Frag out"
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "Infinity: Part 1"
 }
