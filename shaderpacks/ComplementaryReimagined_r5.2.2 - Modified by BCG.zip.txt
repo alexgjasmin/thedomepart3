@@ -1,4 +1,4 @@
-#Wed Sep 18 16:01:15 EDT 2024
+#Fri Sep 20 15:13:39 EDT 2024
 shadowDistance=128.0
 VIGNETTE_R=false
 AURORA_STYLE_DEFINE=2

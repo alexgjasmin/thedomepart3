@@ -1,8 +1,11 @@
 {
+	always_invisible: true
+	autofocus_id: "3C7C2C4883690EBF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lv"
 	group: "4B01C48E311D52E5"
+	hide_quest_details_until_startable: true
 	icon: "avaritia:cosmic_meatballs"
 	id: "1F4B1E2BAB4C0CA7"
 	order_index: 0
@@ -476,5 +479,6 @@
 			y: -1.0d
 		}
 	]
+	subtitle: ["It's not ready yet."]
 	title: "Infinity: Part 1"
 }

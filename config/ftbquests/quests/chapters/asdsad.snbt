@@ -1,11 +1,59 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "asdsad"
 	group: "4B01C48E311D52E5"
+	hide_quest_details_until_startable: true
+	icon: "avaritia:infinity_helmet"
 	id: "206516D8FD190F77"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "5133FA918D3C61E9"
+			size: 2.0d
+			tasks: [{
+				id: "429F461426D8B470"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7798DC512BBA781A"
+			size: 2.0d
+			tasks: [{
+				id: "0FEF67F5417450BC"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "5D01C1632A287C3B"
+			size: 2.0d
+			tasks: [{
+				id: "47BEEB52B3B75C71"
+				item: "avaritia:infinity_legs"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "74B2282DDC409CE0"
+			size: 2.0d
+			tasks: [{
+				id: "7B06724FFCF6E04B"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
 	title: "Infinity: Part 2"
 }
