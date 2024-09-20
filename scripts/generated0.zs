@@ -1,0 +1,1 @@
+craftingTable.addShaped("eg_cosmicmeatballs", <item:avaritia:cosmic_meatballs> * 1, [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], [<item:minecraft:air>, <item:minecraft:glass>, <item:minecraft:air>], [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);

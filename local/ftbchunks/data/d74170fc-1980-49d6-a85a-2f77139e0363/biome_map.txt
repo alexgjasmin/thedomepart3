@@ -1,0 +1,14 @@
+#00C terralith:cave/infested_caves
+#460 minecraft:cherry_grove
+#6B9 terralith:cold_shrubland
+#4CA minecraft:dripstone_caves
+#5E2 terralith:forested_highlands
+#3A0 minecraft:frozen_river
+#1AC terralith:gravel_desert
+#6DE terralith:ice_marsh
+#154 minecraft:ice_spikes
+#3A3 terralith:orchid_swamp
+#5FF minecraft:river
+#4C8 terralith:shield
+#415 terralith:snowy_cherry_grove
+#4E5 minecraft:snowy_plains

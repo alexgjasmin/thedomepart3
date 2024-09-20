@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Fri Sep 20 12:48:22 EDT 2024
+=======
+#Fri Sep 20 15:31:16 EDT 2024
+>>>>>>> alpha-rev01-questmodifications
 shadowDistance=128.0
 VIGNETTE_R=false
 AURORA_STYLE_DEFINE=2

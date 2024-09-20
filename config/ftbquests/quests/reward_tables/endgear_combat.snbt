@@ -1,0 +1,46 @@
+{
+	hide_tooltip: true
+	icon: "mythicmetals:unobtainium"
+	id: "3C08D7E673296FDE"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "avaritia:neutron_collector" }
+		{ count: 12, item: "avaritia:diamond_lattice" }
+		{ count: 2, item: "minecraft:nether_star" }
+		{ count: 4, item: "avaritia:cosmic_meatballs" }
+		{ count: 4, item: "avaritia:ultimate_stew" }
+		{ item: "avaritia:crystal_matrix_block" }
+		{ item: "create_enchantment_industry:hyper_experience_bottle" }
+		{ count: 2, item: "travelersbackpack:netherite_tier_upgrade" }
+		{ count: 4, item: "sophisticatedstorage:basic_to_netherite_tier_upgrade" }
+		{ count: 3, item: "ae2:cell_component_64k" }
+		{ item: "cobblemon:master_ball", weight: 0.3f }
+		{ item: "ae2:cell_component_256k" }
+		{ count: 16, item: "createaddition:chocolate_cake" }
+		{ count: 64, item: "bakery:bread" }
+		{
+			item: {
+				Count: 1
+				id: "avaritia:skullfire_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+			title: "Blade of Infinite Sorrow"
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "wands:netherite_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "avaritia:neutronium_block", weight: 3.0f }
+	]
+	title: "Endgear (Combat)"
+}

@@ -16,7 +16,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:false
 toggleCrouch:false
 toggleSprint:false
@@ -216,6 +216,7 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+<<<<<<< HEAD
 key_key.wands.wand_action:key.keyboard.unknown
 key_key.wands.n_dec:key.keyboard.unknown
 key_key.wands.wand_mode:key.keyboard.unknown
@@ -224,6 +225,25 @@ key_key.wands.toggle_stair_slab:key.keyboard.unknown
 key_key.wands.area_diagonal_spread:key.keyboard.unknown
 key_key.wands.wand_invert:key.keyboard.unknown
 key_key.wands.m_dec:key.keyboard.unknown
+=======
+key_key.wands.wand_invert:key.keyboard.unknown
+key_key.wands.n_dec:key.keyboard.unknown
+key_key.wands.wand_palette_mode:key.keyboard.unknown
+key_key.wands.m_dec:key.keyboard.unknown
+key_key.wands.area_diagonal_spread:key.keyboard.unknown
+key_key.wands.palette_menu:key.keyboard.unknown
+key_key.wands.n_inc:key.keyboard.unknown
+key_key.wands.wand_menu:key.keyboard.g
+key_key.wands.wand_mode:key.keyboard.unknown
+key_key.wands.wand_undo:key.keyboard.unknown
+key_key.wands.wand_orientation:key.keyboard.unknown
+key_key.wands.toggle_stair_slab:key.keyboard.unknown
+key_key.wands.inc_sel_block:key.keyboard.unknown
+key_key.wands.wand_action:key.keyboard.unknown
+key_key.wands.clear_wand:key.keyboard.unknown
+key_key.wands.wand_fill_circle:key.keyboard.unknown
+key_key.wands.m_inc:key.keyboard.unknown
+>>>>>>> alpha-rev01-questmodifications
 key_key.wands.wand_rotate:key.keyboard.unknown
 key_key.wands.m_inc:key.keyboard.unknown
 key_key.wands.wand_undo:key.keyboard.unknown
@@ -240,8 +260,13 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
+<<<<<<< HEAD
 soundCategory_master:0.6010322116305682
 soundCategory_music:0.30604070081159346
+=======
+soundCategory_master:0.5011037527593818
+soundCategory_music:0.4084507042253521
+>>>>>>> alpha-rev01-questmodifications
 soundCategory_record:0.20315442301974473
 soundCategory_weather:0.4023224570251848
 soundCategory_block:0.40745961303395045

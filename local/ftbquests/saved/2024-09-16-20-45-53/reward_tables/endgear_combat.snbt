@@ -1,0 +1,48 @@
+{
+	icon: "avaritia:infinity_catalyst"
+	id: "3C08D7E673296FDE"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "avaritia:neutron_collector" }
+		{ count: 12, item: "avaritia:diamond_lattice" }
+		{ count: 2, item: "minecraft:nether_star" }
+		{ count: 8, item: "avaritia:cosmic_meatballs" }
+		{ count: 4, item: "avaritia:ultimate_stew" }
+		{ item: "avaritia:crystal_matrix_block" }
+		{ item: "create_enchantment_industry:hyper_experience_bottle" }
+		{ count: 2, item: "travelersbackpack:netherite_tier_upgrade" }
+		{ count: 4, item: "sophisticatedstorage:basic_to_netherite_tier_upgrade" }
+		{ count: 3, item: "ae2:cell_component_64k" }
+		{ item: "cobblemon:master_ball" }
+		{ item: "ae2:cell_component_256k" }
+		{ count: 16, item: "createaddition:chocolate_cake" }
+		{ count: 64, item: "bakery:bread" }
+		{
+			item: {
+				Count: 1
+				id: "avaritia:skullfire_sword"
+				tag: {
+					RepairCost: 40
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 25s
+							id: "minecraft:looting"
+						}
+						{
+							lvl: 999
+							id: "minecraft:sharpness"
+						}
+						{
+							lvl: 25
+							id: "minecraft:unbreaking"
+						}
+				}
+			}
+			only_one: true
+			title: "Blade of Infinite Sorrow"
+		}
+	]
+	title: "Endgear (Combat)"
+}
