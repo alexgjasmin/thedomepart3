@@ -1,0 +1,8 @@
+# Ignore saves directory
+/Instances/thedomepart3/saves/Dev Region/
+
+# Ignore journeymap directory
+/Instances/thedomepart3/journeymap/
+
+# Ignore logs directory
+/Instances/thedomepart3/logs/
