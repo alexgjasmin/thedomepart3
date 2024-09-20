@@ -2,6 +2,7 @@
 #FA75A8 minecraft:andesite
 #374FD0 vinery:apple_leaves
 #D43AC6 cobblemon:apricorn_leaves
+#985428 mythicmetals:aquarium_ore
 #2D4848 cobblemon:aspear_berry
 #6E69B5 create:asurine
 #0D47EE minecraft:azalea_leaves
@@ -67,6 +68,7 @@
 #EC280B minecraft:light_gray_terracotta
 #DFD691 minecraft:lily_pad
 #746434 create:limestone
+#DE9468 minecraft:magma_block
 #B7C35A mythicmetals:manganese_ore
 #173E15 minecraft:mangrove_leaves
 #E54371 minecraft:mangrove_log
