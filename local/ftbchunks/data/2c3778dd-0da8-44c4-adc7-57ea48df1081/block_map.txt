@@ -5,6 +5,7 @@
 #FA75A8 minecraft:andesite
 #D43AC6 cobblemon:apricorn_leaves
 #985428 mythicmetals:aquarium_ore
+#ADF429 supplementaries:ash
 #2D4848 cobblemon:aspear_berry
 #0D47EE minecraft:azalea_leaves
 #0F359D minecraft:azure_bluet
@@ -15,6 +16,7 @@
 #6BD369 minecraft:big_dripleaf_stem
 #3DE8FE minecraft:birch_leaves
 #0787A7 cobblemon:black_apricorn
+#32FFFA supplementaries:blackboard
 #001DAC cobblemon:blue_apricorn
 #45C81B minecraft:blue_orchid
 #480E90 cobblemon:bluk_berry
@@ -39,11 +41,14 @@
 #306005 minecraft:cracked_stone_bricks
 #E9A8F5 minecraft:crying_obsidian
 #B2A2E1 minecraft:dandelion
+#D2B0F5 bbb:dark_oak_lantern
 #E3DF1E minecraft:dark_oak_leaves
 #A66708 minecraft:dark_oak_log
+#608A4D bbb:dark_oak_pallet
 #2D68D6 minecraft:dead_bush
 #195ECD minecraft:deepslate_brick_stairs
 #C86497 minecraft:deepslate_bricks
+#3B1DBD bbb:deepslate_fence
 #4DC58C minecraft:deepslate_tile_slab
 #2564E6 minecraft:deepslate_tiles
 #BED665 minecraft:diorite
@@ -54,6 +59,7 @@
 #2C1BE1 minecraft:gold_block
 #B76A76 minecraft:gold_ore
 #060B35 minecraft:granite
+#56470A minecraft:granite_slab
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
 #DAED23 cobblemon:green_apricorn
@@ -66,12 +72,15 @@
 #EA439B minecraft:lapis_ore
 #5AD536 minecraft:large_amethyst_bud
 #83CED3 minecraft:lava
+#747109 minecraft:light
 #7482E4 minecraft:lilac
 #746434 create:limestone
 #EA63C2 lootr:lootr_chest
 #DE9468 minecraft:magma_block
 #B7C35A mythicmetals:manganese_ore
+#88ACCA diagonalfences:mcwfences/dark_oak_stockade_fence
 #B42F3C minecraft:medium_amethyst_bud
+#F88772 diagonalfences:minecraft/oak_fence
 #3AC9BC mythicmetals:morkite_ore
 #8A7583 minecraft:moss_block
 #5A981B minecraft:moss_carpet
@@ -80,10 +89,13 @@
 #483B67 minecraft:mossy_stone_bricks
 #454322 minecraft:netherrack
 #73753E minecraft:oak_fence
+#40E43E bbb:oak_lantern
 #AD9EB5 minecraft:oak_leaves
 #BBA6D1 minecraft:oak_log
+#2A49E4 bbb:oak_pallet
 #E3886A minecraft:oak_planks
 #72BC63 minecraft:oak_stairs
+#C7F287 bbb:oak_support
 #4A5E4E minecraft:obsidian
 #B89780 cobblemon:oran_berry
 #8F6314 minecraft:orange_tulip
@@ -93,6 +105,7 @@
 #EF654A cobblemon:persim_berry
 #8D4C10 cobblemon:pink_apricorn
 #36285C minecraft:pink_tulip
+#80CC71 minecraft:player_head
 #BB7F65 minecraft:podzol
 #E8ADE8 minecraft:polished_andesite_slab
 #44E938 minecraft:polished_andesite_stairs
@@ -103,6 +116,7 @@
 #E6B35B minecraft:pumpkin
 #7601B3 mythicmetals:quadrillum_ore
 #431C61 minecraft:quartz_stairs
+#868785 minecraft:rail
 #D1B49F cobblemon:razz_berry
 #6CE355 cobblemon:red_apricorn
 #025439 minecraft:red_mushroom
@@ -136,6 +150,7 @@
 #0EAA1C minecraft:suspicious_gravel
 #329213 minecraft:sweet_berry_bush
 #D9B62B cobblemon:tanga_berry
+#0981F6 mythicmetals:tin_ore
 #87BAF4 minecraft:tuff
 #6DB687 create:veridium
 #88779D minecraft:vine

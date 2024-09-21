@@ -11,3 +11,4 @@
 #670 terralith:siberian_grove
 #553 terralith:siberian_taiga
 #169 minecraft:taiga
+#1D0 terralith:yellowstone
